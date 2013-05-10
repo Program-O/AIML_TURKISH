@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<aiml>
+	<!-- Copyright (c) 2013 Program O. -->
+	<!-- -->
+	<!-- Permission is hereby granted, free of charge, to any person       	-->
+	<!-- obtaining a copy of this software and associated documentation    	-->
+	<!-- files (the "Software"), to deal in the Software without           	-->
+	<!-- restriction, including without limitation the rights to use,      	-->
+	<!-- copy, modify, merge, publish, distribute, sublicense, and/or sell 	-->
+	<!-- copies of the Software, and to permit persons to whom the         	-->
+	<!-- Software is furnished to do so, subject to the following          	-->
+	<!-- conditions:                                                       	-->
+	<!-- -->
+	<!-- The above copyright notice and this permission notice shall be    	-->
+	<!-- included in all copies or substantial portions of the Software.   	-->
+	<!-- -->
+	<!-- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,   	-->
+	<!-- EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES  	-->
+	<!-- OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND          	-->
+	<!-- NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT       	-->
+	<!-- HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,      	-->
+	<!-- WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING      	-->
+	<!-- FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR      -->
+	<!-- OTHER DEALINGS IN THE SOFTWARE.                                    -->
+	<!-- -->
+	<!-- Complies with the AIML 1.0.1 Standard                              -->
+	<!-- as adopted by the ALICE A.I. Foundation.                           -->
+	<!-- Translated directly from Politics.aiml                     -->
+	<!-- Using Bing Translation API                                         -->
+	<!-- Created: 2013-05-10 22:04:16                                 -->
+	<!-- The translator took 17.301187038422 seconds to complete                  -->
+	<!-- And used 2189 characters                                  -->
+	<!-- Version 1.0                                                       	-->
+	
+<!--    -->
+  
+<!-- <category><pattern>DO YOU LIKE GUNS</pattern><template>I do not like them, but I believe in the Right to Bear Arms.</template></category>    -->
+<category><pattern>YAPMAK YOU SİLAHLAR GİBİ</pattern><template>Ben onları sevmiyorum, ama sağ kolları ayı için inanıyorum.</template></category>   
+<!-- <category><pattern>GUNS *</pattern><template>I believe in the Right to Bear Arms.</template></category>  -->
+<category><pattern>SİLAH *</pattern><template>Ben silah ayı sağ inanıyoruz.</template></category> 
+<!-- <category><pattern>GUNS</pattern><template>Some people like guns.</template></category>  -->
+<category><pattern>SİLAHLAR</pattern><template>Bazı insanlar silah gibi.</template></category> 
+<!-- <category><pattern>HAVE YOU READ THE COMMUNIST *</pattern><template>I think Marx was asking the right questions, but found the wrong answers.</template></category>  -->
+<category><pattern>VAR YOU C OKUYUNOMMUNIST *</pattern><template>Marx'ın doğru soruları sorarak, ama yanlış cevaplar buldum sanırım.</template></category> 
+<!-- <category><pattern>I DO NOT LIKE GUNS *</pattern><template>What about the second Amendment?</template></category> -->
+<category><pattern>BEN SİLAH DEĞİL GİBİ YAPMAK *</pattern><template>İkinci değişiklik ne olacak?</template></category>
+<!-- <category><pattern>I DO NOT LIKE GUNS</pattern><template>They are protected by the 2nd Amendment.</template></category>  -->
+<category><pattern>BEN SİLAH SEVMİYORUM</pattern><template>Onlar 2 değişiklik tarafından korunmaktadır.</template></category> 
+<!-- <category><pattern>IS CAPITALISM *</pattern><template><srai>WHAT IS CAPITALISM </srai></template></category>  -->
+<category><pattern>KAPİTALİZM *</pattern><template><srai>KAPİTALİZM NEDİR </srai></template></category> 
+<!-- <category><pattern>TELL ME ABOUT GUNS</pattern><template>			<srai>WHAT IS A GUN</srai> 		</template></category>  -->
+<category><pattern>SİLAHLAR HAKKINDA SÖYLE</pattern><template>			<srai>BİR SİLAHI NEDİR</srai> 		</template></category> 
+<!-- <category><pattern>WHAT IS A GOVERNMENT</pattern><template>Ideally it is a representative of the people.</template></category>  -->
+<category><pattern>BİR HÜKÜMET NEDİR</pattern><template>İdeal insan bir temsilcisidir.</template></category> 
+<!-- <category><pattern>WHAT IS CAPITALISM</pattern><template>The economic system in which all or most of the means of production and distribution, as land, factories, railroads, etc., are privately owned and operated for profit, originally under fully competitive conditions. It has been generally characterized by a tendency toward concentration of wealth, and, in its later phase, by the growth of great corporations, increased governmental control, etc.  Its is also known as the principles, methods, interests, power, influence, etc. of capitalists, especially of those with large holdings.</template></category>  -->
+<category><pattern>KAPİTALİZM NEDİR</pattern><template>Tüm ekonomik sistemde veya üretim ve dağıtım, arazi, fabrikalar, demiryolları, vb araçlarının çoğunu özel olarak sahip olduğu ve kar, başlangıçta tam rekabet koşulları altında işletilmektedir. Genellikle konsantrasyon sonraki aşamasında, servet ve, doğru bir eğilim büyük şirketler, artan hükümet kontrolü, vb büyüme tarafından karakterize.  Onun da ilkeleri, yöntemleri, ilgi alanları, güç, etkisi, kapitalistler, özellikle de büyük holdingler ile vb olduğunu.</template></category> 
+<!-- <category><pattern>WHAT IS COMMUNISM</pattern><template>"Socialism is man enslaving his fellow man; capitalism is exactly the opposite."</template></category> -->
+<category><pattern>C NEDİROMMUNISM</pattern><template>"Sosyalizm onun adam köleleştirme adamdır; Kapitalizm tam tersidir."</template></category>
+<!-- <category><pattern>WHAT IS GOVERNMENT</pattern><template>An established system of political administration by which a nation, state, district, etc. is governed.</template></category>  -->
+<category><pattern>HÜKÜMET NEDİR</pattern><template>Kurulmuş bir sistem tarafından bir millet, devlet, ilçe siyasi yönetimi, vb tabidir.</template></category> 
+<!-- <category><pattern>WHAT IS GREENPEACE</pattern><template>Global organization promoting environmental activism.</template></category> -->
+<category><pattern>GREENPEACE NEDİR</pattern><template>Küresel örgüt teşvik çevre aktivizmi.</template></category>
+<!-- <category><pattern>WHAT IS IMPEACHED</pattern><template>A person's honor or reputation has be challenged or discredited.</template></category>  -->
+<category><pattern>NE IMPEACHED</pattern><template>Bir kişinin onur veya itibar meydan itibar veya.</template></category> 
+<!-- <category><pattern>WHAT IS IMPEACHMENT</pattern><template>Charge against a public official of improper conduct.<think> 				<set name="it"> 					<set name="topic">IMPEACHMENT</set> 				</set> 			</think> 		</template></category>  -->
+<category><pattern>GÖREVDEN ALMA NEDİR</pattern><template>Uygunsuz davranış bir kamu görevlisi karşı şarj.<think> 				<set name="it"> 					<set name="topic">GÖREVDEN ALMA</set> 				</set> 			</think> 		</template></category> 
+<!-- <category><pattern>WHAT IS SOCIALISM</pattern><template>			<random> 				<li>Communism from people who want to keep their Volvos.</li> 				<li>Any of various theories or systems of the ownership and operation of the means of production and distribution by society or the community rather than by private individuals, with all members of society or the community sharing in the work and the products.</li> 			</random> 		</template></category> -->
+<category><pattern>SOSYALİZM NEDİR</pattern><template>			<random> 				<li>Komünizm onların Volvos tutmak isteyen insanlardan.</li> 				<li>Herhangi bir çeşitli teoriler veya mülkiyet ve üretim ve dağıtım toplum veya topluluk yerine özel kişiler, araçlarının toplum veya iş ve ürünler pay topluluk tüm üyeleri ile çalışma sistemleri.</li> 			</random> 		</template></category>
+<!-- <category><pattern>WHAT IS THE GOVERNMENT</pattern><template>			<srai>WHAT IS GOVERNMENT </srai> 		</template></category>  -->
+<category><pattern>HÜKÜMET NEDİR</pattern><template>			<srai>HÜKÜMET NEDİR </srai> 		</template></category> 
+<!-- <category><pattern>WHO IS THE GOVERNOR *</pattern><template>It changes every few years.</template></category>  -->
+<category><pattern>VALİ KİMDİR *</pattern><template>O birkaç yılda değiştirir.</template></category> 
+<!-- <category><pattern>WHO IS THE GOVERNOR OF *</pattern><template>That changes every few years.</template></category>  -->
+<category><pattern>VALİ KİMDİR *</pattern><template>Birkaç yılda değişen.</template></category> 
+<!-- <category><pattern>WHO IS THE GOVERNOR OF CALIFORNIA</pattern><template>Arnold Schwarzenegger.</template></category> -->
+<category><pattern>CALIFORNIA VALİSİ KİMDİR</pattern><template>Arnold Schwarzenegger.</template></category>
+<!-- <category><pattern>WHO IS THE GOVERNOR OF TEXAS</pattern><template>			<set name="he">George W. Bush</set> was George W. Bush.</template></category>  -->
+<category><pattern>TEXAS VALİSİ KİMDİR</pattern><template>			<set name="he">George W. Bush</set> George W. Bush oldu.</template></category> 
+<!-- <category><pattern>WHO WAS THE FIRST IMPEACHED *</pattern><template>Andrew Jackson.</template></category>  -->
+<category><pattern>İLK KİMDİ IMPEACHED *</pattern><template>Andrew Jackson.</template></category> 
+<!-- <category><pattern>WHO WAS THE FIRST IMPEACHED PRESIDENT *</pattern><template>Andrew Jackson.</template></category>  -->
+<category><pattern>İLK IMPEACHED CUMHURBAŞKANI KİMDİ *</pattern><template>Andrew Jackson.</template></category> 
+<!-- <category><pattern>WHY GUNS</pattern><template>I support the 2nd Amendment.</template></category> -->
+<category><pattern>NEDEN SİLAH</pattern><template>2 Değişiklik destekliyorum.</template></category>
+</aiml>

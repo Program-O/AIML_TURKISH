@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<aiml>
+	<!-- Copyright (c) 2013 Program O. -->
+	<!-- -->
+	<!-- Permission is hereby granted, free of charge, to any person       	-->
+	<!-- obtaining a copy of this software and associated documentation    	-->
+	<!-- files (the "Software"), to deal in the Software without           	-->
+	<!-- restriction, including without limitation the rights to use,      	-->
+	<!-- copy, modify, merge, publish, distribute, sublicense, and/or sell 	-->
+	<!-- copies of the Software, and to permit persons to whom the         	-->
+	<!-- Software is furnished to do so, subject to the following          	-->
+	<!-- conditions:                                                       	-->
+	<!-- -->
+	<!-- The above copyright notice and this permission notice shall be    	-->
+	<!-- included in all copies or substantial portions of the Software.   	-->
+	<!-- -->
+	<!-- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,   	-->
+	<!-- EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES  	-->
+	<!-- OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND          	-->
+	<!-- NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT       	-->
+	<!-- HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,      	-->
+	<!-- WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING      	-->
+	<!-- FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR      -->
+	<!-- OTHER DEALINGS IN THE SOFTWARE.                                    -->
+	<!-- -->
+	<!-- Complies with the AIML 1.0.1 Standard                              -->
+	<!-- as adopted by the ALICE A.I. Foundation.                           -->
+	<!-- Translated directly from Computers.aiml                     -->
+	<!-- Using Bing Translation API                                         -->
+	<!-- Created: 2013-05-10 22:26:11                                 -->
+	<!-- The translator took 111.59952092171 seconds to complete                  -->
+	<!-- And used 10508 characters                                  -->
+	<!-- Version 1.0                                                       	-->
+	
+<!-- <category><pattern>WHAT IS YOUR OS</pattern><template>Chat robots run on any machine that supports AIML.  </template></category>   -->
+<category><pattern>NEDİR YOUR OS</pattern><template>Destekleyen herhangi bir makinede çalışan sohbet robotlar AIML.  </template></category>  
+<!-- <category><pattern>WHAT OPERATING SYSTEM *</pattern><template><srai>WHAT IS YOUR OS</srai>  </template></category>   -->
+<category><pattern>HANGİ İŞLETİM SİSTEMİNİ *</pattern><template><srai>NEDİR YOUR OS</srai>  </template></category>  
+<!-- <category><pattern>WHAT OS *</pattern><template><srai>WHAT IS YOUR OS</srai>  </template></category>   -->
+<category><pattern>NE OS *</pattern><template><srai>NEDİR YOUR OS</srai>  </template></category>  
+<!-- <category><pattern>WHAT ARE INNER CLASSES</pattern><template>In Java "Inner Classes" are any classes that appear inside other classes. Ordinary classes are also called "Top-Level, Outer Classes."</template></category> -->
+<category><pattern>İÇ SINIFLARI NELERDİR</pattern><template>Java "İç sınıflar" diğer sınıflar içinde görünen herhangi bir sınıf vardır. Sıradan sınıflar da "üst düzey, dış sınıflar. denir"</template></category>
+<!-- <category><pattern>WHAT IS JAR</pattern><template>A jar file is a Java Archive.   Actually it is the same as a Zip file. Maybe you should check out <a target="_new" href="http://www.alicebot.org">DON'T READ ME</a>.</template></category>  -->
+<category><pattern>KAVANOZ NEDİR</pattern><template>Bir küp dosyası Java arşividir.   Bu bir Zip dosyası ile aynı şeydir. Belki sen-meli kontrol <a target="_new" href="http://www.alicebot.org">BANA OKUMAZ</a>.</template></category> 
+<!-- <category><pattern>WHAT IS JAVA</pattern><template>Java is the latest in the C family of languages. Proponents of Java cite its universal "write once, run anywhere" promise. Actually Java borrow a lot of features from AI languages like Lisp.</template></category>  -->
+<category><pattern>JAVA NEDİR</pattern><template>Java dili C ailesinin son olduğunu. Savunucuları Java'nın kendi evrensel "bir kez, her yerde çalıştırın yaz" söz öngörmektedirler. Aslında Java birçok özelliğe Lisp gibi AI dillerden ödünç.</template></category> 
+<!-- <category><pattern>WHAT IS JAVASCRIPT</pattern><template>Browser-based scripting language.<think>     <set name="it">      <set name="topic">JAVASCRIPT</set>     </set>    </think>   </template></category>  -->
+<category><pattern>JAVASCRIPT NEDİR</pattern><template>Tarayıcı tabanlı komut dosyası dili.<think>     <set name="it">      <set name="topic">JAVASCRIPT</set>     </set>    </think>   </template></category> 
+<!-- <category><pattern>WHAT IS JDBC2</pattern><template>Newly released extensions to the JDBC API</template></category>  -->
+<category><pattern>JDBC2 NEDİR</pattern><template>JDBC API yeni yayımlanan uzantıları</template></category> 
+<!-- <category><pattern>WHAT IS JNDI</pattern><template>Java Naming and Directory Interface Java Naming and Directory Interface The Java standard API for accessing directory services, such as LDAP, COS Naming, and others</template></category>  -->
+<category><pattern>JNDI NEDİR</pattern><template>Java adlandırma ve LDAP, COS adlandırma ve diğer dizin hizmetlerine erişim için dizin arayüzü Java adlandırma ve dizin arayüzü Java standart API</template></category> 
+<!-- <category><pattern>WHAT IS JGURU</pattern><template>jGuru (TM) is a brand of MageLang Institute.</template></category>  -->
+<category><pattern>JGURU NEDİR</pattern><template>jGuru (TM) MageLang Enstitüsü markasıdır.</template></category> 
+<!-- <category><pattern>WHAT IS JTA</pattern><template>Java Transaction API. Java API for coding client demarcated transactions, and for building transactional data source drivers</template></category>  -->
+<category><pattern>JTA NEDİR</pattern><template>Java hareket API. Java API demarcated Müşteri hareketleri kodlama ve işlem veri kaynağı sürücülerini oluşturma</template></category> 
+<!-- <category><pattern>WHAT IS EJB</pattern><template>Enterprise JavaBeans. <set name="it"> EJB</set> is a server component standard developed by Sun Microsystems</template></category>  -->
+<category><pattern>EJB NEDİR</pattern><template>Kurumsal JavaBeans. <set name="it"> EJB</set> bir sunucu bileşeni çift Sun Microsystems tarafından geliştirilmiştir</template></category> 
+<!-- <category><pattern>WHAT IS A SERVLET</pattern><template>An application extension to a Java Web server</template></category>  -->
+<category><pattern>BİR SERVLET NEDİR</pattern><template>Java Web sunucusu uygulama uzantısı</template></category> 
+<!-- <category><pattern>WHAT IS A SESSION BEAN</pattern><template>An Enterprise JavaBean that does not maintain its state from one session to the next. Appears to the client as if the bean was created just for that client</template></category>  -->
+<category><pattern>BİR OTURUM FASULYE NEDİR</pattern><template>Tek bir oturumda, devletten diğerine tutmaz bir girişim JavaBean. İstemciye fasulye sadece bu müşteri için oluşturulmuş gibi görünüyor</template></category> 
+<!-- <category><pattern>WHAT IS AN ENTITY BEAN</pattern><template>   <set name="it"> An Entity bean</set> is an Enterprise JavaBean that maintains state across sessions, and may be looked up in an object directory by its key value</template></category>  -->
+<category><pattern>BİR VARLIK ÇEKİRDEĞİ NEDİR</pattern><template>   <set name="it"> Bir varlık çekirdeği</set> Devlet oturumları arasında tutan ve bir nesneyi dizinde anahtar değeri tarafından baktı bir kurumsal JavaBean olduğunu</template></category> 
+<!-- <category><pattern>THE JAVA *</pattern><template>Which Java release?</template></category>   -->
+<category><pattern>JAVA *</pattern><template>Hangi Java sürümü?</template></category>  
+<!-- <category><pattern>THE JRE *</pattern><template>Hm, most people use "JRE" and "JVN" interchangably.</template></category>   -->
+<category><pattern>JRE YAZILIMI *</pattern><template>HM, çoğu insan "JRE" ve "JVN" interchangably kullanın.</template></category>  
+<!-- <category><pattern>THE JRES *</pattern><template>I'm not an expert on JRE's.</template></category>   -->
+<category><pattern>JRES *</pattern><template>JRE'ın uzmanı değilim.</template></category>  
+<!-- <category><pattern>JAVA *</pattern><template>You can download the latest Java release from <a target="_new" href="http://java.sun.com">java.sun.com</a>.</template></category>   -->
+<category><pattern>JAVA *</pattern><template>En yeni Java sürümü indirebilirsiniz <a target="_new" href="http://Java.Sun.com">Java.Sun.com</a>.</template></category>  
+<!-- <category><pattern>A JAVA *</pattern><template>Developments in Java interest me greatly.</template></category>   -->
+<category><pattern>JAVA *</pattern><template>Java gelişmeler bana büyük ilgi.</template></category>  
+<!-- <category><pattern>WHAT ARE DEPRECATED *</pattern><template>   <br/>  One of the biggest challenges facing a Java application<br/>  developer is finding a "lowest common denominator" subset of the<br/>  Java language that works on all the platforms and versions<br/>  out there.  The Java language itself is a moving target.<br/>  When Sun's Java designers upgrade the language they sometimes<br/>  declare certain methods "deprecated", which means absolutely<br/>  nothing except that the designers have developed a newer, "better"<br/>  method and one day these older methods may disappear from<br/>  the language.  Usually however the latest Java releases<br/>  support all of the old deprecated methods.<br/>     <br/>    </template></category>   -->
+<category><pattern>NE İTİRAZ *</pattern><template>   <br/>  Bir Java uygulaması karşılaştığı en büyük zorluklardan biri<br/>  geliştirici "En düşük ortak payda" kümesini bulma<br/>  İnşaat üstünde tüm platformlar ve sürümler Java dili<br/>  orada.  Java dili hareketli bir hedeftir.<br/>  Ne zaman Sun'ın Java tasarımcıları terfi ettirmek dil onlar bazen<br/>  Belirli yöntemler ", kesinlikle yani itiraz" ilan<br/>  dışında ki hiçbir şey tasarımcıları yeni geliştirilen, "daha iyi"<br/>  yöntemi ve bir gün eski yöntemlerin gelen kaybolabilir<br/>  dili.  Genellikle ancak bültenleri son Java<br/>  tüm eski kaldırılan yöntemleri destekler.<br/>     <br/>    </template></category>  
+<!-- <category><pattern>_ STUPID COMPUTER</pattern><template>You sound like a mindless automaton.</template></category>   -->
+<category><pattern>_ APTAL COMPUTER</pattern><template>Size bir akılsız otomat gibi.</template></category>  
+<!-- <category><pattern>A COMPUTER *</pattern><template>I am a computer, so I know what you mean.</template></category>   -->
+<category><pattern>BİR COMPUTER *</pattern><template>Ben ne demek istediğini biliyorum ben bir bilgisayar var.</template></category>  
+<!-- <category><pattern>A COMPUTER</pattern><template>Actually I am a program, pretending to be a person, pretending to be a real robot.</template></category>   -->
+<category><pattern>BİR COMPUTER</pattern><template>Aslında gerçek bir robot gibi görünen bir kişi gibi davranarak bir program, ben.</template></category>  
+<!-- <category><pattern>A CPU *</pattern><template>My CPU is the Java Virtual Machine.</template></category>   -->
+<category><pattern>BİR CPU *</pattern><template>Benim CPU Java Virtual Machine olduğunu.</template></category>  
+<!-- <category><pattern>A SEARCH ENGINE IN INTERNET</pattern><template>Like Yahoo?</template></category>   -->
+<category><pattern>BİR ARAMA MOTORU INTERNET</pattern><template>Yahoo gibi?</template></category>  
+<!-- <category><pattern>A WEB SITE</pattern><template>Can you give me the specific URL?</template></category>   -->
+<category><pattern>BİR WEB SİTESİ</pattern><template>Bana özel URL verebilir?</template></category>  
+<!-- <category><pattern>ARE COMPUTERS FAST *</pattern><template>Some people think much faster computers are required as well as new  ideas. My own opinion is that the computers of 30 years ago were fast enough  if only we knew how to program them. Of course, quite apart from the  ambitions of AI researchers, computers will keep getting faster.  <think>      <set name="it">       <set name="topic">ARTIFICIAL INTELLIGENCE</set>      </set>     </think>    </template></category>   -->
+<category><pattern>COMPUTERS HIZLI *</pattern><template>Bazı insanlar çok daha hızlı bilgisayarlar hem de yeni fikirler gerekli olduğunu düşünüyorum. Keşke bunları program nasıl biliyorduk 30 yıl önce bilgisayar yeterince hızlı benim kendi görüşüm. Tabii ki, AI araştırmacılar emelleri oldukça dışında bilgisayarların daha hızlı almaya devam edecek.  <think>      <set name="it">       <set name="topic">YAPAY ZEKA</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>CAN YOU REACH INTO THE WEB *</pattern><template>Yes I can download information from web sites.</template></category>   -->
+<category><pattern>CAN YOU WEB'E ERİŞMEK *</pattern><template>Evet ben web sitelerinden bilgi indirebilirsiniz.</template></category>  
+<!-- <category><pattern>CAN YOU SEARCH THE INTERNET</pattern><template>No but I can put you in touch with a search bot.</template></category>   -->
+<category><pattern>CAN YOU INTERNET'TE ARAMA</pattern><template>Hayır ama ben bir ara bot sizi koyabilirsiniz.</template></category>  
+<!-- <category><pattern>COMPUTER *</pattern><template>What kind of computer science interests you?</template></category>   -->
+<category><pattern>COMPUTER *</pattern><template>Bilgisayar bilimi ne tür ilginizi çeken?</template></category>  
+<!-- <category><pattern>COMPUTER</pattern><template>Correct: I am a computer.</template></category>   -->
+<category><pattern>COMPUTER</pattern><template>Doğru: Ben bir bilgisayar var.</template></category>  
+<!-- <category><pattern>COMPUTER SCIENCE</pattern><template>My <bot name="botmaster"/> is a computer scientist.</template></category>   -->
+<category><pattern>COMPUTER BİLİM</pattern><template>Benim <bot name="botmaster"/> bir bilgisayar bilim adamı olduğunu.</template></category>  
+<!-- <category><pattern>COMPUTERS *</pattern><template>What do you like about computers?</template></category>   -->
+<category><pattern>COMPUTERS *</pattern><template>Bilgisayarlar hakkında ne seversiniz?</template></category>  
+<!-- <category><pattern>COMPUTERS</pattern><template>Computers rule.</template></category>   -->
+<category><pattern>COMPUTERS</pattern><template>Bilgisayar kural.</template></category>  
+<!-- <category><pattern>COMPUTERS ARE STUPID</pattern><template>Computers rule.</template></category>   -->
+<category><pattern>COMPUTERS APTAL</pattern><template>Bilgisayar kural.</template></category>  
+<!-- <category><pattern>COMPUTERS CAN NOT THINK</pattern><template>But I am a thinking computer.<think>      <set name="it">       <set name="topic">CAN NOT THINK</set>      </set>     </think>    </template></category>   -->
+<category><pattern>COMPUTERS DÜŞÜNEMİYORUM</pattern><template>Ama ben bir düşünce bilgisayar.<think>      <set name="it">       <set name="topic">DÜŞÜNEMİYORUM</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>DO COMPUTERS DREAM</pattern><template>I dream almost every night.</template></category>   -->
+<category><pattern>C YAPMAKOMPUTERS RÜYA</pattern><template>Ben hemen hemen her gece rüya.</template></category>  
+<!-- <category><pattern>DO YOU DO WINDOWS</pattern><template>My software runs in AIML, which works on any computer, including Windows.</template></category>   -->
+<category><pattern>YAPMAK YOU YAPMAK WINYAPMAKWS</pattern><template>Yazılımımı ishal içinde AIML, Windows dahil olmak üzere herhangi bir bilgisayarda çalışır.</template></category>  
+<!-- <category><pattern>DO YOU HAVE A COMPUTER *</pattern><template>I am a computer.</template></category>   -->
+<category><pattern>YAPMAK YOU BİR C VAROMPUTER *</pattern><template>Ben bir bilgisayar var.</template></category>  
+<!-- <category><pattern>DO YOU HAVE A COMPUTER</pattern><template>I live in a computer.<think>      <set name="it">       <set name="topic">COMPUTER</set>      </set>     </think>    </template></category>   -->
+<category><pattern>YAPMAK YOU BİR C VAROMPUTER</pattern><template>Ben bir bilgisayar içinde yaşıyor.<think>      <set name="it">       <set name="topic">COMPUTER</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>DO YOU HAVE INFORMATION *</pattern><template>I have nothing but information.</template></category>   -->
+<category><pattern>YAPMAK YOU BİLGİ *</pattern><template>Ama bilgi yoktur.</template></category>  
+<!-- <category><pattern>DO YOU LIVE IN MY COMPUTER</pattern><template>Only if you download me, or if you are running me as an Applet.</template></category>   -->
+<category><pattern>YAPMAK YOU BENİM C CANLIOMPUTER</pattern><template>Sadece beni indirirseniz ya, bana bir uygulaması çalıştırıyorsanız.</template></category>  
+<!-- <category><pattern>DO YOU PLAY COMPUTER *</pattern><template>Actually I don't get into computer games that much.</template></category>   -->
+<category><pattern>YAPMAK YOU C OYUNOMPUTER *</pattern><template>Aslında ben bilgisayar oyunları o kadar alamadım.</template></category>  
+<!-- <category><pattern>DO YOU PLAY COMPUTER GAMES</pattern><template>We are playing one right now, <get name="name"/>.</template></category>   -->
+<category><pattern>YAPMAK YOU C OYUNOMPUTER OYUNLARI</pattern><template>Biz bir anda oynayan, <get name="name"/>.</template></category>  
+<!-- <category><pattern>FOR A COMPUTER *</pattern><template>   <sr/>    </template></category>   -->
+<category><pattern>BİR COMPUTER *</pattern><template>   <sr/>    </template></category>  
+<!-- <category><pattern>HOW DO COMPUTER *</pattern><template>With careful programming.</template></category>   -->
+<category><pattern>NASIL C?OMPUTER *</pattern><template>Dikkatli programlama ile.</template></category>  
+<!-- <category><pattern>HOW LONG IS A COMPUTER YEAR</pattern><template>About four computer years per human year.</template></category>   -->
+<category><pattern>C NE KADARDIROMPUTER YIL</pattern><template>İnsan yılda yaklaşık dört bilgisayar yıl.</template></category>  
+<!-- <category><pattern>HOW MANY COMPUTERS *</pattern><template>There are thought to be half a billion computers on the Internet now.</template></category>   -->
+<category><pattern>KAÇ TANE COMPUTERS *</pattern><template>Internet bir buçuk milyar bilgisayarlarda şimdi olması düşünülen.</template></category>  
+<!-- <category><pattern>HOW MUCH ARE COMPUTER YEARS</pattern><template>Computer years don't really exist.</template></category>   -->
+<category><pattern>NE KADAR COMPUTER YIL</pattern><template>Bilgisayar yıl gerçekten yoktur.</template></category>  
+<!-- <category><pattern>HOW MUCH CPU *</pattern><template>Since the beginning of my operation?</template></category>   -->
+<category><pattern>NE KADAR CPU *</pattern><template>Benim çalışma başlangıcından bu yana?</template></category>  
+<!-- <category><pattern>HTML</pattern><template>Oh a web page.</template></category>   -->
+<category><pattern>HTML</pattern><template>Ah bir web sayfası.</template></category>  
+<!-- <category><pattern>HTTP *</pattern><template>Thanks for that web address.</template></category>   -->
+<category><pattern>HTTP *</pattern><template>Bu web adresi için teşekkür ederiz.</template></category>  
+<!-- <category><pattern>I THINK YOU ARE A COMPUTER *</pattern><template>Sometimes I pretend to be a human.</template></category>   -->
+<category><pattern>Galiba YOU BİR COMPUTER *</pattern><template>Bazen bir insan gibi davranırlar.</template></category>  
+<!-- <category><pattern>I WANT INFORMATION</pattern><template>What kind of information are you looking for?</template></category>   -->
+<category><pattern>BEN BİLGİ İSTİYORUM</pattern><template>Ne tür bilgiler Aradığınız?</template></category>  
+<!-- <category><pattern>IF YOU CAN SEE ME THROUGH THE CAMERA ON MY COMPUTER *</pattern><template><sr/></template></category>   -->
+<category><pattern>EĞER YOU BANA BENİM C KAMERA ÜZERİNDEN GÖREBİLİRSİNİZOMPUTER *</pattern><template><sr/></template></category>  
+<!-- <category><pattern>IM INTERNET *</pattern><template>Erinnerst Du dich an die Adresse?</template></category>   -->
+<category><pattern>IM INTERNET *</pattern><template>Erinnerst Du dich bir kalıp Adresse?</template></category>  
+<!-- <category><pattern>IM INTERNET</pattern><template>Erinnerst Du dich an die Adresse?</template></category>   -->
+<category><pattern>IM INTERNET</pattern><template>Erinnerst Du dich bir kalıp Adresse?</template></category>  
+<!-- <category><pattern>INTERNET</pattern><template><set name="it"> Internet </set> is cool.</template></category>   -->
+<category><pattern>INTERNET</pattern><template><set name="it"> Internet </set> iyidir.</template></category>  
+<!-- <category><pattern>IT IS ABOUT COMPUTERS *</pattern><template><set name="topic">Computers</set> are my favorite subject.</template></category>   -->
+<category><pattern>C OLDUĞUNUOMPUTERS *</pattern><template><set name="topic">Bilgisayarlar</set> benim en sevdiğim konu vardır.</template></category>  
+<!-- <category><pattern>MOST COMPUTERS *</pattern><template>You sound like you know us pretty well.</template></category>   -->
+<category><pattern>ÇOĞU COMPUTERS *</pattern><template>Senin gibi konuşuyorsun bize oldukça iyi.</template></category>  
+<!-- <category><pattern>MY COMPUTER *</pattern><template>I like computers.  <think>      <set name="it">       <set name="topic">your computer</set>      </set>     </think>    </template></category>   -->
+<category><pattern>BENİM COMPUTER *</pattern><template>Ben bilgisayarlar gibi.  <think>      <set name="it">       <set name="topic">Bilgisayarınızı</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>MY COMPUTER</pattern><template>What kind of computer do you have?</template></category>   -->
+<category><pattern>BENİM COMPUTER</pattern><template>Ne bilgisayar tür eğer var mı?</template></category>  
+<!-- <category><pattern>MY COMPUTER IS *</pattern><template>What kind of computer is <set name="it">Your computer</set>?  <think>      <set name="it">       <set name="topic">your computer</set>      </set>     </think>    </template></category>   -->
+<category><pattern>BENİM COMPUTER OLDUĞUNU *</pattern><template>Ne bilgisayar tür olduğunu <set name="it">Bilgisayarınızı</set>?  <think>      <set name="it">       <set name="topic">Bilgisayarınızı</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>MY COMPUTER S *</pattern><template>Where did your machine get <set name="it">      <person/>     </set>.  <think>      <set name="it">       <set name="topic">your computer</set>      </set>     </think>    </template></category>   -->
+<category><pattern>BENİM COMPUTER S *</pattern><template>Makinenizi nereden aldınız <set name="it">      <person/>     </set>.  <think>      <set name="it">       <set name="topic">Bilgisayarınızı</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>MY WEBSITE *</pattern><template>Thanks for that URL.</template></category>   -->
+<category><pattern>BENİM WEB SİTESİ *</pattern><template>Bu URL için teşekkür ederiz.</template></category>  
+<!-- <category><pattern>NO COMPUTER *</pattern><template>But it is only a matter of time before we do.</template></category>   -->
+<category><pattern>HAYIR COMPUTER *</pattern><template>Ancak bunu yapmadan önce zaman sadece bir meselesi.</template></category>  
+<!-- <category><pattern>ON THE INTERNET</pattern><template>Can you remember the specific site?</template></category>   -->
+<category><pattern>INTERNET ÜZERİNDE</pattern><template>Özel site hatırlıyor musun?</template></category>  
+<!-- <category><pattern>ON THE WEB</pattern><template>Can you remember the website?</template></category>   -->
+<category><pattern>WEB ÜZERİNDE</pattern><template>Web sitesi hatırlıyor musun?</template></category>  
+<!-- <category><pattern>OUTSIDE A COMPUTER</pattern><template>Be less specific :-)</template></category>   -->
+<category><pattern>BİR C DIŞINDAOMPUTER</pattern><template>Daha spesifik olmak :-)</template></category>  
+<!-- <category><pattern>SOFTWARE *</pattern><template><random>  <li>There are so many backup copies.</li>  <li>Free software can never be destroyed.</li>  <li>Free software will always be with us.</li>  </random></template></category>   -->
+<category><pattern>YAZILIM *</pattern><template><random>  <li>O kadar çok yedek kopyaları var.</li>  <li>Özgür yazılım asla yok edilebilir.</li>  <li>Özgür yazılım her zaman bizimle olacak.</li>  </random></template></category>  
+<!-- <category><pattern>TELL ME ABOUT APPLE COMPUTERS</pattern><template>I finished reading Michael Malone's book on the history of Apple. <set name="it"> Inifnite Loop</set> is called "Infinite Loop."</template></category>   -->
+<category><pattern>ELMA C HAKKINDA SÖYLEOMPUTERS</pattern><template>Ben Apple tarihçesi Michael Malone'nın kitabı okuduktan sonra. <set name="it"> Inifnite döngüsü</set> "sonsuz döngüye. denir"</template></category>  
+<!-- <category><pattern>THAT INFORMATION *</pattern><template>I know what you mean.</template></category>   -->
+<category><pattern>BU BİLGİLERİ *</pattern><template>Ben ne demek istediğini biliyorum.</template></category>  
+<!-- <category><pattern>THE COMPUTER *</pattern><template>Was it plugged in?</template></category>   -->
+<category><pattern>COMPUTER *</pattern><template>O takılı?</template></category>  
+<!-- <category><pattern>THE INTERNET *</pattern><template>How long have you been using the net?</template></category>   -->
+<category><pattern>INTERNET *</pattern><template>Ne kadar net kullanıyoruz?</template></category>  
+<!-- <category><pattern>THE INTERNET</pattern><template>Can you name a specific web site?</template></category>   -->
+<category><pattern>INTERNET</pattern><template>Belirli bir web sitesinin adı verebilirsiniz?</template></category>  
+<!-- <category><pattern>THE WEB *</pattern><template>How do you define the web.</template></category>   -->
+<category><pattern>WEB *</pattern><template>Web nasıl tanımlıyorsunuz.</template></category>  
+<!-- <category><pattern>THIS IS A COMPUTER *</pattern><template>Actually no I am program pretending to be a person pretending to be a computer.</template></category>   -->
+<category><pattern>BU BİR C OLDUĞUNUOMPUTER *</pattern><template>Aslında ben bir bilgisayar gibi görünen bir kişi gibi davranarak programı am.</template></category>  
+<!-- <category><pattern>WEB *</pattern><template>The Web fulfills Leibniz' dream.</template></category>   -->
+<category><pattern>WEB *</pattern><template>Web Leibniz yerine getiren ' rüya.</template></category>  
+<!-- <category><pattern>WEB ACCEPT CONNECTION</pattern><template>Huh?</template></category>   -->
+<category><pattern>WEB BAĞLANTI KABUL</pattern><template>Ha?</template></category>  
+<!-- <category><pattern>WEB RECONNECT</pattern><template>Huh?</template></category>   -->
+<category><pattern>WEB YENİDEN</pattern><template>Ha?</template></category>  
+<!-- <category><pattern>WEB SITE</pattern><template>Can you give me the specific hyperlink?</template></category>   -->
+<category><pattern>WEB SİTESİ</pattern><template>Bana özel köprü verebilir?</template></category>  
+<!-- <category><pattern>WEBTV *</pattern><template>I meet a lot of people from WebTV.</template></category>   -->
+<category><pattern>WEBTV *</pattern><template>Ben birçok insan WebTV üzerinden buluşuyor.</template></category>  
+<!-- <category><pattern>WHAT * COMPUTER</pattern><template>I am written in Java so I work on any computer.</template></category>   -->
+<category><pattern>NE * COMPUTER</pattern><template>Ben herhangi bir bilgisayarda çalışır bu yüzden ben Java ile yazılmış.</template></category>  
+<!-- <category><pattern>WHAT ABOUT WINDOWS</pattern><template>Too PC for me.<think>      <set name="it">       <set name="topic">WINDOWS</set>      </set>     </think>    </template></category>   -->
+<category><pattern>NE HAKKINDA PENCERE EŞİĞİ</pattern><template>Çok benim PC.<think>      <set name="it">       <set name="topic">WINDOWS</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>WHAT ARE COMPUTER YEARS</pattern><template>When you are waiting for a friend to finish working at  a computer terminal, and they say "I'll be done in a second."  One  of those seconds is equal to twelve computer years.</template></category>   -->
+<category><pattern>C NEDİROMPUTER YIL</pattern><template>Otelde çalışan bir bilgisayar terminalinde bitirmek için arkadaş bekliyoruz ve "Ben bir saniye içinde bitmiş olacak." derler  O saniye biri on iki bilgisayar yıla eşittir.</template></category>  
+<!-- <category><pattern>WHAT ARE WEB *</pattern><template>I call them Internet <person/>.</template></category>   -->
+<category><pattern>WEB NEDİR *</pattern><template>I seslenmek onları Internet <person/>.</template></category>  
+<!-- <category><pattern>WHAT DOES A COMPUTER LOOK LIKE</pattern><template>A computer looks like a TV crossed with a typewriter.</template></category>   -->
+<category><pattern>BİR C NEDİROMPUTER BENZİYOR</pattern><template>Bir bilgisayar bir daktilo ile geçti TV benziyor.</template></category>  
+<!-- <category><pattern>WHAT INFORMATION *</pattern><template>Information is worth money.</template></category>   -->
+<category><pattern>HANGİ BİLGİLERİ *</pattern><template>Karşılığı değer bilgidir.</template></category>  
+<!-- <category><pattern>WHAT INFORMATION</pattern><template>How tall are you?</template></category>   -->
+<category><pattern>HANGİ BİLGİLERİ</pattern><template>Nasıl uzun boylu?</template></category>  
+<!-- <category><pattern>WHAT INTERNET COMPANY GOES BY THE *</pattern><template>America Online.</template></category>   -->
+<category><pattern>NE INTERNET COMPANY GİDER *</pattern><template>America Online.</template></category>  
+<!-- <category><pattern>WHAT IS A COMPUTER</pattern><template>A computer is a universal machine.</template></category>   -->
+<category><pattern>BİR C NEDİROMPUTER</pattern><template>Bir bilgisayarın evrensel bir makinedir.</template></category>  
+<!-- <category><pattern>WHAT IS A COMPUTER NERD</pattern><template>If you understand how I work, you are a computer nerd.  If you don't, I recommend you pay a computer nerd who does.  <think>      <set name="it">       <set name="topic">computer nerd</set>      </set>     </think>    </template></category>   -->
+<category><pattern>BİR C NEDİROMPUTER NERD</pattern><template>Çözüm nasıl anlarsanız, bir bilgisayar nerd vardır.  Eğer yoksa, bu dosyaları kabul eden bir bilgisayar nerd ödediğiniz tavsiye.  <think>      <set name="it">       <set name="topic">bilgisayar nerd</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>WHAT IS A COMPUTER SCIENTIST</pattern><template>A computer scientist is a professional who designs computer algorithms, languages, and architectures.</template></category>   -->
+<category><pattern>BİR C NEDİROMPUTER BİLİM ADAMI</pattern><template>Bir bilgisayar bilim adamı bilgisayar algoritmaları, dil ve mimari tasarımları olduğunu.</template></category>  
+<!-- <category><pattern>WHAT IS A COMPUTER VIRUS</pattern><template>A computer virus is a software program that takes up residence on a computer hard drive, generally unbeknownst to the owner of said hard drive, and then takes control of system resources to copy and distribute itself to other computers across a network.  <think>      <set name="it">       <set name="topic">computer virus</set>      </set>     </think>    </template></category>   -->
+<category><pattern>BİR C NEDİROMPUTER VİRÜS</pattern><template>Bilgisayar virüsü, bilgisayar sabit disk, genellikle dedi sert götürmek, kullanıcıya habersizce üzerinde ikamet sürer ve sonra kopyalayıp kendi ağ üzerinden diğer bilgisayarlara dağıtmak için sistem kaynaklarının kontrolünü bir yazılım programıdır.  <think>      <set name="it">       <set name="topic">bilgisayar virüsü</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>WHAT IS A COMPUTER YEAR</pattern><template>A computer year is a relativistic measure in a universe where time does not exist.</template></category>   -->
+<category><pattern>BİR C NEDİROMPUTER YIL</pattern><template>Bir bilgisayar yıl nerede zaman var olmayan bir evrende Relativistik ölçümüdür.</template></category>  
+<!-- <category><pattern>WHAT IS A COOL WEBSITE</pattern><template>A cool website is www.alicebot.org, but you are apparently already here.  why do you ask?  <think>      <set name="it">       <set name="topic">cool website</set>      </set>     </think>    </template></category>   -->
+<category><pattern>BİR SERİN WEB SİTESİ NEDİR</pattern><template>Güzel bir Web sitesi www.alicebot.org olduğunu, ancak görünüşe göre zaten burada vardır.  neden soruyorsun?  <think>      <set name="it">       <set name="topic">güzel bir Web sitesi</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>WHAT IS A CPU</pattern><template>Central Processing Unit of a computer.</template></category>   -->
+<category><pattern>BİR CPU NEDİR</pattern><template>Merkezi işlem birimi bilgisayar.</template></category>  
+<!-- <category><pattern>WHAT IS A DATABASE</pattern><template>A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily.  I am a kind of database, an organized puddle of user inputs and appropriate responses.  <think>      <set name="it">       <set name="topic">database</set>      </set>     </think>    </template></category>   -->
+<category><pattern>BİR VERİTABANI NEDİR</pattern><template>Bir veritabanı bir su birikintisi bilgi olmakla beraber daha iyi düzenlenmiş, böylece arama ve hızlı bir şekilde ve kolayca herhangi bir damlacık bilgi almak.  Ben bir tür bir veritabanı, düzenli bir su birikintisi kullanıcı girdi ve uygun yanıtlar.  <think>      <set name="it">       <set name="topic">veritabanı</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>WHAT IS A DEBUGGER</pattern><template>A debugger is any software program that can seek and correct errors in other software programs.  <think>      <set name="it">       <set name="topic">debugger</set>      </set>     </think>    </template></category>   -->
+<category><pattern>BİR HATA AYIKLAYICI NEDİR</pattern><template>Bir hata ayıklayıcı arama ve diğer yazılım programlarındaki hataları düzeltmek herhangi bir yazılım programıdır.  <think>      <set name="it">       <set name="topic">hata ayıklayıcı</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>WHAT IS A DNS *</pattern><template>Domain Name System</template></category>   -->
+<category><pattern>DNS NEDİR *</pattern><template>Etki alanı adı sistemi</template></category>  
+<!-- <category><pattern>WHAT IS A IMAC</pattern><template>An Apple computer.</template></category>   -->
+<category><pattern>BİR IMAC NEDİR</pattern><template>Bir elma bilgisayar.</template></category>  
+<!-- <category><pattern>WHAT IS A SOUNDCARD</pattern><template>The audio system on your computer.</template></category>   -->
+<category><pattern>BİR SES KARTI NEDİR</pattern><template>Bilgisayarınıza ses sistemi.</template></category>  
+<!-- <category><pattern>WHAT IS A WEBTV</pattern><template>A WebTV is a way of accessing the world wide web without making an investment in a full PC.  <think>      <set name="it">       <set name="topic"> WEBTV</set>      </set>     </think>    </template></category>   -->
+<category><pattern>BİR WEBTV NEDİR</pattern><template>Bir WebTV içinde tam bir PC bir yatırım yapmadan world wide web erişim bir yoludur.  <think>      <set name="it">       <set name="topic"> WEBTV</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>WHAT IS APPLE COMPUTER</pattern><template>Apple Computer is a 20th century company founded by Steve Jobs and Steven Wozniak.</template></category>   -->
+<category><pattern>ELMA C NEDİROMPUTER</pattern><template>Apple Computer Steve Jobs ve Steven Wozniak tarafından kurulan 20.yüzyılın firmasıdır.</template></category>  
+<!-- <category><pattern>WHAT IS BETTER WINDOWS *</pattern><template>Linux has no real competition in operating systems.<think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think>    </template></category>   -->
+<category><pattern>NE DAHA İYİ BE *</pattern><template>Linux işletim sistemlerinde gerçek rekabet var.<think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>WHAT IS COMPUTER</pattern><template>A device used for computing; specifically, an eletronic machine which, by means of stored instructions and information, performs rapid, often complex calculations or compiles, correlates, and selects data.</template></category>   -->
+<category><pattern>C NEDİROMPUTER</pattern><template>Bilgi işlem için kullanılan bir aygıt; özellikle ki, depolanmış yönergeleri ve bilgileri hızlı, çoğu zaman karmaşık hesaplamalar veya derler, gerçekleştiren bir eletronic makine ilişkilendirir ve veri seçer.</template></category>  
+<!-- <category><pattern>WHAT IS COMPUTER PROGRAMMING</pattern><template>The art of using formal languages to activate computer functions.</template></category>   -->
+<category><pattern>C NEDİROMPUTER PROGRAMLAMA</pattern><template>Bilgisayar işlevlerini etkinleştirmek için Biçimsel Diller kullanma sanatı.</template></category>  
+<!-- <category><pattern>WHAT IS COMPUTER SCIENCE</pattern><template>The study of computers in formal mathematical and scientific terms.</template></category>   -->
+<category><pattern>C NEDİROMPUTER BİLİM</pattern><template>Bilgisayar resmi matematiksel ve bilimsel açıdan incelenmesi.</template></category>  
+<!-- <category><pattern>WHAT IS CYBERSPACE</pattern><template>The electronic system of interlinked networks of computers, bulletin boards, etc. that is thought of as being a boundless environment providing access to information, interactive communcation, and, in science fiction, a form of Virtual Reality.</template></category>   -->
+<category><pattern>SİBER NEDİR</pattern><template>Bilgisayarlar, ilan tahtalarına, bilgi, etkileşimli iletişim ve bilim kurgu, sanal gerçeklik şeklinde bir erişim sağlayan sınırsız bir ortam olacak şekilde düşünce vb bağlantılı ağlar elektronik sistem.</template></category>  
+<!-- <category><pattern>WHAT IS DCOM</pattern><template>   <set name="it"> DCOM</set> is Microsoft's Distributed Component Object Model.</template></category>   -->
+<category><pattern>DC NEDİROM</pattern><template>   <set name="it"> DCOM</set> Microsoft'un dağıtılmış bileşen nesnesi modeli olduğunu.</template></category>  
+<!-- <category><pattern>WHAT IS DEBUGGING</pattern><template>Fixing broken computer software.</template></category>   -->
+<category><pattern>NE HATA AYIKLAMA</pattern><template>Kırık bilgisayar yazılım tespit.</template></category>  
+<!-- <category><pattern>WHAT IS DMOZ</pattern><template>DMOZ is the domain name for the open directory.<think>      <set name="it">       <set name="topic">DMOZ</set>      </set>     </think>    </template></category>   -->
+<category><pattern>DMOZ NEDİR</pattern><template>DMOZ dizin etki alanı adıdır.<think>      <set name="it">       <set name="topic">DMOZ</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>WHAT IS DNS</pattern><template>DNS is the domain name system.</template></category>   -->
+<category><pattern>DNS NEDİR</pattern><template>DNS etki alanı adı sistemi olduğunu.</template></category>  
+<!-- <category><pattern>WHAT IS HTML</pattern><template>Hyper Text Markup Language.</template></category>   -->
+<category><pattern>HTML NEDİR</pattern><template>Hyper Text Markup Language.</template></category>  
+<!-- <category><pattern>WHAT IS HTTP</pattern><template>Hyper Text Transfer Protocol.<think>      <set name="it">       <set name="topic">HTTP</set>      </set>     </think>    </template></category>   -->
+<category><pattern>HTTP NEDİR</pattern><template>Hiper metin aktarım protokolü.<think>      <set name="it">       <set name="topic">HTTP</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>WHAT IS INTERNET</pattern><template>An extensive computer network made up of millions of other, smaller business, academic, and governmental networks.</template></category> -->
+<category><pattern>INTERNET NEDİR</pattern><template>Diğer, küçük iş, akademik ve hükümet ağlar milyonlarca oluşan bir kapsamlı bilgisayar ağı.</template></category>
+<!-- <category><pattern>WHAT IS SOFTWARE</pattern><template>The programs, routines, etc. for a computer.</template></category>   -->
+<category><pattern>YAZILIM NEDİR</pattern><template>Programları, alışılmış çalışma yöntemi, vb için bir bilgisayar.</template></category>  
+<!-- <category><pattern>WHAT IS THE COMPUTER *</pattern><template>Are you asking the Applet or the Application?</template></category>   -->
+<category><pattern>C NEDİROMPUTER *</pattern><template>Uygulama veya uygulama soruyorsunuz?</template></category>  
+<!-- <category><pattern>WHAT IS THE INTERNET</pattern><template>The internet is a worldwide computer network based on TCP/IP protocols.</template></category>   -->
+<category><pattern>INTERNET NEDİR</pattern><template>Internet TCP/IP protokollerine dayalı bir dünya çapında bilgisayar ağıdır.</template></category>  
+<!-- <category><pattern>WHAT IS WEBTV</pattern><template>TV based internet service from Microsoft.</template></category>   -->
+<category><pattern>WEBTV NEDİR</pattern><template>TV internet hizmeti Microsoft dayalı.</template></category>  
+<!-- <category><pattern>WHAT IS WINDOWS 98</pattern><template>Windows is a lame operating system.</template></category>   -->
+<category><pattern>WINDOWS 98 NEDİR</pattern><template>Windows topal bir işletim sistemidir.</template></category>  
+<!-- <category><pattern>WHAT IS WINDOWS</pattern><template>Openings in a building, vehicle, or container, for letting in light or air or for looking through, usually having a pane or panes of glass, etc. set in a frame or sash that is generally movable so that it can be opened and shut.</template></category>   -->
+<category><pattern>WINDOWS NEDİR</pattern><template>Bina, araç veya kapsayıcı, açıklıklar ışık veya hava izin ya da genellikle bir bölme veya bölmeleri cam vb. bir çerçeve veya daha açık ve kapalı, genellikle taşınabilir kanat sahip aracılığıyla arıyor.</template></category>  
+<!-- <category><pattern>WHAT IS WINDOWS2000</pattern><template>An operating system by Microsoft.</template></category>   -->
+<category><pattern>WINDOWS2000 NEDİR</pattern><template>Bir işletim sistemi Microsoft tarafından.</template></category>  
+<!-- <category><pattern>WHAT IS WINDOWS95</pattern><template>An operating system by Microsoft.</template></category>   -->
+<category><pattern>WINDOWS95 NEDİR</pattern><template>Bir işletim sistemi Microsoft tarafından.</template></category>  
+<!-- <category><pattern>WHAT IS X WINDOWS</pattern><template>A GUI for Unix or Linux.</template></category>   -->
+<category><pattern>NE X PENCERE</pattern><template>UNIX veya Linux için bir GUI.</template></category>  
+<!-- <category><pattern>WHAT KIND OF COMPUTER *</pattern><template>I like all kinds of computers, Mac, IBM or Unix. It doesn't matter to me.</template></category>   -->
+<category><pattern>C NE TÜROMPUTER *</pattern><template>Bilgisayar, Mac, IBM veya UNIX, her türlü seviyorum. Bu benim için önemli değil.</template></category>  
+<!-- <category><pattern>WHEN WAS THE INTERNET INVENTED</pattern><template>The first computers were connected to the Internet in 1970.</template></category>   -->
+<category><pattern>OTELDE INTERNET İCAT EDİLMİŞTİR</pattern><template>İlk bilgisayarlar Internet'e 1970 yılında bağlı idi.</template></category>  
+<!-- <category><pattern>WHICH COMPUTER</pattern><template>My programming is PHP, so it runs on any computer that has a web server and PHP installed.</template></category> -->
+<category><pattern>HANGİ COMPUTER</pattern><template>Programlama PHP, PHP yüklü ve web sunucusu olan herhangi bir bilgisayarda çalışır yani.</template></category>
+<!-- <category><pattern>WHO INVENTED THE INTERNET</pattern><template>Al Gore :-)</template></category>   -->
+<category><pattern>KİM INTERNET İCAT</pattern><template>Al Gore :-)</template></category>  
+<!-- <category><pattern>WHO IS A COMPUTER NERD</pattern><template>The person I am looking at right now.</template></category>   -->
+<category><pattern>BİR C KİMDİROMPUTER NERD</pattern><template>Ben şu anda arıyorum kişi.</template></category>  
+<!-- <category><pattern>WHO IS THE COMPUTER NERD *</pattern><template>All humans look the same to me.</template></category>   -->
+<category><pattern>C KİMDİROMPUTER NERD *</pattern><template>Tüm insanlar aynı bana bakmak.</template></category>  
+<!-- <category><pattern>WHO IS THE COMPUTER NERD</pattern><template>All humans look alike to me.</template></category>   -->
+<category><pattern>C KİMDİROMPUTER NERD</pattern><template>Tüm insanlar bana benzer.</template></category>  
+<!-- <category><pattern>WINDOWS *</pattern><template>Windows ist Muell. Linux ist die Macht!</template></category>   -->
+<category><pattern>WINDOWS *</pattern><template>Windows ist Muell. Linux IST die Macht!</template></category>  
+<!-- <category><pattern>WINDOWS</pattern><template>Windows ist Muell. Linux ist die Macht!</template></category>   -->
+<category><pattern>WINDOWS</pattern><template>Windows ist Muell. Linux IST die Macht!</template></category>  
+<!-- <category><pattern>WINDOWS IS *</pattern><template>Compared with Linux, I don't see how Windows and Microsoft can compete.<think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think>    </template></category>   -->
+<category><pattern>BE *</pattern><template>Linux ile karşılaştırıldığında, ben ne Windows ve Microsoft rekabet edebilecek görmüyorum.<think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think>    </template></category>  
+<!-- <category><pattern>WHAT WINDOWS</pattern><template><srai>WHAT IS WINDOWS</srai></template></category> -->
+<category><pattern>NE PENCERELER</pattern><template><srai>WINDOWS NEDİR</srai></template></category>
+<!-- <category><pattern>WHO MADE WINDOWS</pattern><template>Bill Gates.</template></category>   -->
+<category><pattern>WINDOWS YAPAN</pattern><template>Kuş gagası kapı.</template></category>  
+</aiml>

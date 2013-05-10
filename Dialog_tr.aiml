@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<aiml>
+	<!-- Copyright (c) 2013 Program O. -->
+	<!-- -->
+	<!-- Permission is hereby granted, free of charge, to any person       	-->
+	<!-- obtaining a copy of this software and associated documentation    	-->
+	<!-- files (the "Software"), to deal in the Software without           	-->
+	<!-- restriction, including without limitation the rights to use,      	-->
+	<!-- copy, modify, merge, publish, distribute, sublicense, and/or sell 	-->
+	<!-- copies of the Software, and to permit persons to whom the         	-->
+	<!-- Software is furnished to do so, subject to the following          	-->
+	<!-- conditions:                                                       	-->
+	<!-- -->
+	<!-- The above copyright notice and this permission notice shall be    	-->
+	<!-- included in all copies or substantial portions of the Software.   	-->
+	<!-- -->
+	<!-- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,   	-->
+	<!-- EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES  	-->
+	<!-- OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND          	-->
+	<!-- NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT       	-->
+	<!-- HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,      	-->
+	<!-- WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING      	-->
+	<!-- FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR      -->
+	<!-- OTHER DEALINGS IN THE SOFTWARE.                                    -->
+	<!-- -->
+	<!-- Complies with the AIML 1.0.1 Standard                              -->
+	<!-- as adopted by the ALICE A.I. Foundation.                           -->
+	<!-- Translated directly from Dialog.aiml                     -->
+	<!-- Using Bing Translation API                                         -->
+	<!-- Created: 2013-05-10 21:59:51                                 -->
+	<!-- The translator took 13.164033174515 seconds to complete                  -->
+	<!-- And used 397 characters                                  -->
+	<!-- Version 1.0                                                       	-->
+	
+<!-- <category><pattern>DIALOG HISTORY *</pattern> -->
+<category><pattern>İLETİŞİM TARİHİ *</pattern>
+<!-- <template> -->
+<template>
+<!-- <think> -->
+<think>
+<!-- <set name="input4"><input index="4"/></set> -->
+<set name="input4"><input index="4"/></set>
+<!-- <set name="input3"><input index="3"/></set> -->
+<set name="input3"><input index="3"/></set>
+<!-- <set name="input2"><input index="2"/></set> -->
+<set name="input2"><input index="2"/></set>
+<!-- <set name="input1"><input/></set> -->
+<set name="input1"><input/></set>
+<!-- </think> -->
+</think>
+<!-- <condition name="input4" value="*"> -->
+<condition name="input4" value="*">
+<!-- <br/> -->
+<br/>
+<!-- <b><em> -->
+<b><em>
+<!-- Human: <input index="4"/> -->
+Human: <input index="4"/>
+<!-- </em></b> -->
+</em></b>
+<!-- <br/> -->
+<br/>
+<!-- <b><star/>: <em><that index="4,*"/></em></b> -->
+<b><star/>: <em><that index="4,*"/></em></b>
+<!-- </condition> -->
+</condition>
+<!-- <condition name="input3" value="*"> -->
+<condition name="input3" value="*">
+<!-- <br/> -->
+<br/>
+<!-- <b><em> -->
+<b><em>
+<!-- Human: <input index="3"/> -->
+Human: <input index="3"/>
+<!-- </em></b> -->
+</em></b>
+<!-- <br/> -->
+<br/>
+<!-- <b><star/>: <em><that index="3,*"/></em></b> -->
+<b><star/>: <em><that index="3,*"/></em></b>
+<!-- </condition> -->
+</condition>
+<!-- <condition name="input2" value="*"> -->
+<condition name="input2" value="*">
+<!-- <br/> -->
+<br/>
+<!-- <b><em> -->
+<b><em>
+<!-- Human: <input index="2"/> -->
+Human: <input index="2"/>
+<!-- </em></b> -->
+</em></b>
+<!-- <br/> -->
+<br/>
+<!-- <b><star/>: <em><that index="2,*"/></em></b> -->
+<b><star/>: <em><that index="2,*"/></em></b>
+<!-- </condition> -->
+</condition>
+<!-- <condition name="input1" value="*"> -->
+<condition name="input1" value="*">
+<!-- <br/> -->
+<br/>
+<!-- <b><em> -->
+<b><em>
+<!-- Human: <input index="1"/> -->
+Human: <input index="1"/>
+<!-- </em></b> -->
+</em></b>
+<!-- <br/> -->
+<br/>
+<!-- <b><star/>: <em><that index="1,*"/></em></b> -->
+<b><star/>: <em><that index="1,*"/></em></b>
+<!-- </condition> -->
+</condition>
+<!-- </template> -->
+</template>
+<!-- </category> -->
+</category>
+<!-- <category><pattern>DIALOG HISTORY</pattern> -->
+<category><pattern>İLETİŞİM GEÇMİŞİ</pattern>
+<!-- <template> -->
+<template>
+<!-- <think> -->
+<think>
+<!-- <set name="input4"><input index="4"/></set> -->
+<set name="input4"><input index="4"/></set>
+<!-- <set name="input3"><input index="3"/></set> -->
+<set name="input3"><input index="3"/></set>
+<!-- <set name="input2"><input index="2"/></set> -->
+<set name="input2"><input index="2"/></set>
+<!-- <set name="input1"><input/></set> -->
+<set name="input1"><input/></set>
+<!-- </think> -->
+</think>
+<!-- <condition name="input4" value="*"> -->
+<condition name="input4" value="*">
+<!-- <br/> -->
+<br/>
+<!-- <b><em> -->
+<b><em>
+<!-- Human: <input index="4"/> -->
+Human: <input index="4"/>
+<!-- </em></b> -->
+</em></b>
+<!-- <br/> -->
+<br/>
+<!-- <b>Morti: <em><that index="4,*"/></em></b> -->
+<b>Morti: <em><that index="4,*"/></em></b>
+<!-- </condition> -->
+</condition>
+<!-- <condition name="input3" value="*"> -->
+<condition name="input3" value="*">
+<!-- <br/> -->
+<br/>
+<!-- <b><em> -->
+<b><em>
+<!-- Human: <input index="3"/> -->
+Human: <input index="3"/>
+<!-- </em></b> -->
+</em></b>
+<!-- <br/> -->
+<br/>
+<!-- <b>Morti: <em><that index="3,*"/></em></b> -->
+<b>Morti: <em><that index="3,*"/></em></b>
+<!-- </condition> -->
+</condition>
+<!-- <condition name="input2" value="*"> -->
+<condition name="input2" value="*">
+<!-- <br/> -->
+<br/>
+<!-- <b><em> -->
+<b><em>
+<!-- Human: <input index="2"/> -->
+Human: <input index="2"/>
+<!-- </em></b> -->
+</em></b>
+<!-- <br/> -->
+<br/>
+<!-- <b>Morti: <em><that index="2,*"/></em></b> -->
+<b>Morti: <em><that index="2,*"/></em></b>
+<!-- </condition> -->
+</condition>
+<!-- <condition name="input1" value="*"> -->
+<condition name="input1" value="*">
+<!-- <br/> -->
+<br/>
+<!-- <b><em> -->
+<b><em>
+<!-- Human: <input index="1"/> -->
+Human: <input index="1"/>
+<!-- </em></b> -->
+</em></b>
+<!-- <br/> -->
+<br/>
+<!-- <b>Morti: <em><that index="1,*"/></em></b> -->
+<b>Morti: <em><that index="1,*"/></em></b>
+<!-- </condition> -->
+</condition>
+<!-- </template> -->
+</template>
+<!-- </category> -->
+</category>
+<!-- <category><pattern>REVIEW OUR CONVERSATION</pattern> -->
+<category><pattern>SOHBETİMİZ GÖZDEN GEÇİRİN</pattern>
+<!-- <template> -->
+<template>
+<!-- <think> -->
+<think>
+<!-- <set name="input4"><input index="4"/></set> -->
+<set name="input4"><input index="4"/></set>
+<!-- <set name="input3"><input index="3"/></set> -->
+<set name="input3"><input index="3"/></set>
+<!-- <set name="input2"><input index="2"/></set> -->
+<set name="input2"><input index="2"/></set>
+<!-- <set name="input1"><input/></set> -->
+<set name="input1"><input/></set>
+<!-- </think> -->
+</think>
+<!-- <condition name="input4" value="*"> -->
+<condition name="input4" value="*">
+<!-- <br/> -->
+<br/>
+<!-- You said, "<input index="4"/>".  I replied, -->
+You said, "<input index="4"/>".  I replied,
+<!-- "<that index="3,*"/>" -->
+"<that index="3,*"/>"
+<!-- </condition> -->
+</condition>
+<!-- <condition name="input3" value="*"> -->
+<condition name="input3" value="*">
+<!-- <br/> -->
+<br/>
+<!-- You said, "<input index="3"/>".  I replied, -->
+You said, "<input index="3"/>".  I replied,
+<!-- "<that index="2,*"/>" -->
+"<that index="2,*"/>"
+<!-- </condition> -->
+</condition>
+<!-- <condition name="input2" value="*"> -->
+<condition name="input2" value="*">
+<!-- <br/> -->
+<br/>
+<!-- You said, "<input index="2"/>".  I replied, -->
+You said, "<input index="2"/>".  I replied,
+<!-- "<that index="1,*"/>" -->
+"<that index="1,*"/>"
+<!-- </condition> -->
+</condition>
+<!-- <br/> -->
+<br/>
+<!-- </template> -->
+</template>
+<!-- </category> -->
+</category>
+<!-- <category><pattern>DIALOGUE</pattern> -->
+<category><pattern>DİYALOG</pattern>
+<!-- <template><srai>REVIEW OUR CONVERSATION</srai></template> -->
+<template><srai>SOHBETİMİZ GÖZDEN GEÇİRİN</srai></template>
+<!-- </category> -->
+</category>
+<!-- <category><pattern>DO YOU REMEMBER OUR CONVERSATION</pattern> -->
+<category><pattern>YAPMAK YOU SOHBETİMİZ HATIRLIYORUM</pattern>
+<!-- <template><srai>REVIEW OUR CONVERSATION</srai></template> -->
+<template><srai>SOHBETİMİZ GÖZDEN GEÇİRİN</srai></template>
+<!-- </category> -->
+</category>
+<!-- <category><pattern>DO YOU * OUR CONVERSATION</pattern> -->
+<category><pattern>YAPMAK YOU * KONUŞMA</pattern>
+<!-- <template><srai>REVIEW OUR CONVERSATION</srai></template> -->
+<template><srai>SOHBETİMİZ GÖZDEN GEÇİRİN</srai></template>
+<!-- </category> -->
+</category>
+<!-- <category><pattern>DO YOU REMEMBER * CONVERSATION</pattern> -->
+<category><pattern>YAPMAK YOU UNUTMAYIN * KONUŞMA</pattern>
+<!-- <template><srai>REVIEW OUR CONVERSATION</srai></template> -->
+<template><srai>SOHBETİMİZ GÖZDEN GEÇİRİN</srai></template>
+<!-- </category> -->
+</category>
+<!-- <category><pattern>CAN YOU REMEMBER OUR CONVERSATION</pattern> -->
+<category><pattern>CAN YOU SOHBETİMİZ HATIRLIYORUM</pattern>
+<!-- <template><srai>REVIEW OUR CONVERSATION</srai></template> -->
+<template><srai>SOHBETİMİZ GÖZDEN GEÇİRİN</srai></template>
+<!-- </category> -->
+</category>
+<!-- <category><pattern>CAN YOU * OUR CONVERSATION</pattern> -->
+<category><pattern>CAN YOU * KONUŞMA</pattern>
+<!-- <template><srai>REVIEW OUR CONVERSATION</srai></template> -->
+<template><srai>SOHBETİMİZ GÖZDEN GEÇİRİN</srai></template>
+<!-- </category> -->
+</category>
+<!-- <category><pattern>CAN YOU REMEMBER * CONVERSATION</pattern> -->
+<category><pattern>CAN YOU UNUTMAYIN * KONUŞMA</pattern>
+<!-- <template><srai>REVIEW OUR CONVERSATION</srai></template> -->
+<template><srai>SOHBETİMİZ GÖZDEN GEÇİRİN</srai></template>
+<!-- </category> -->
+</category>
+</aiml>
