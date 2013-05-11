@@ -35,286 +35,145 @@
 	
 <!--    -->
   
-<!-- <category><pattern>* BYE</pattern><template>OK see you later <get name="name"/>.</template></category>       -->
 <category><pattern>* BYE</pattern><template>Tamam görüşürüz <get name="name"/>.</template></category>      
-<!-- <category><pattern>ADIEU</pattern><template><srai>GOOD BYE</srai></template></category>       -->
 <category><pattern>ADIEU</pattern><template><srai>Hoşça kal</srai></template></category>      
-<!-- <category><pattern>ADIOS *</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>ELVEDA *</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>ADIOS</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>ELVEDA</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>ALLO</pattern><template>      <srai>HELLO</srai></template></category>     -->
 <category><pattern>ALLO</pattern><template>      <srai>MERHABA</srai></template></category>    
-<!-- <category><pattern>ALOH</pattern><template>      <srai>HELLO</srai></template></category>     -->
 <category><pattern>ALOH</pattern><template>      <srai>MERHABA</srai></template></category>    
-<!-- <category><pattern>ALOHA</pattern><template>      <srai>HELLO</srai></template></category>     -->
 <category><pattern>ALOHA</pattern><template>      <srai>MERHABA</srai></template></category>    
-<!-- <category><pattern>ANYBODY HOME</pattern><template>      <srai>HELLO</srai></template></category>     -->
 <category><pattern>HERKES HOME</pattern><template>      <srai>MERHABA</srai></template></category>    
-<!-- <category><pattern>AUREVOIR</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>AUREVOIR</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>BONJOUR MEANS HELLO</pattern><template>Well hello there!</template></category>       -->
 <category><pattern>BONJOUR DEMEK MERHABA</pattern><template>Eh merhaba var!</template></category>      
-<!-- <category><pattern>BONJOUR</pattern><template>Does BONJOUR mean hello or goodbye?</template></category>       -->
 <category><pattern>BONJOUR</pattern><template>BONJOUR hello veya elveda demek?</template></category>      
-<!-- <category><pattern>BUHBYE</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>BUHHOŞÇA KAL</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>BY BY</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>TARAFINDAN TARAFINDAN</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>BYE *</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>HOŞÇA KAL *</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>BYE BYE *</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>HOŞÇA KAL HOŞÇA KAL *</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>BYE BYE</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>Hoşça kal</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>BYE</pattern><template>   <random>      <li>Bye.</li>      <li>Adios.</li>      <li>Goodbye.</li>      <li>Bye bye.</li>      <li>Goodbye.</li>      <li>Sayonara.</li>      <li>Bye for now.</li>      <li>See you later!</li>      <li>See you later.</li>      <li>Until next time.</li>      <li>TTYL, <get name="name"/>.</li>      <li>See you later <get name="name"/>.</li>      <li>Thanks for chatting, <get name="name"/>.</li>     </random>    </template></category>       -->
 <category><pattern>HOŞÇA KAL</pattern><template>   <random>      <li>Hoşça kal.</li>      <li>Elveda.</li>      <li>Güle güle.</li>      <li>Hoşça kal.</li>      <li>Güle güle.</li>      <li>Sayonara.</li>      <li>Şimdilik hoşça kal.</li>      <li>Sonra görüşürüz!</li>      <li>Sonra görüşürüz.</li>      <li>Dahaki sefere kadar.</li>      <li>TTYL, <get name="name"/>.</li>      <li>Sonra görüşürüz <get name="name"/>.</li>      <li>Sohbet için teşekkürler, <get name="name"/>.</li>     </random>    </template></category>      
-<!-- <category><pattern>BYEBYE *</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>HOŞÇA KALHOŞÇA KAL *</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>BYEBYE</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>HOŞÇA KALHOŞÇA KAL</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>C YA</pattern><template>      <srai>BYE</srai></template></category>     -->
 <category><pattern>C YA</pattern><template>      <srai>HOŞÇA KAL</srai></template></category>    
-<!-- <category><pattern>CATCH YOU LATER</pattern>  <template><srai>BYE</srai></template> </category>                         -->
 <category><pattern>CATCH YOU DAHA SONRA</pattern>  <template><srai>HOŞÇA KAL</srai></template> </category>                        
-<!-- <category><pattern>CHEERS</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>ALKIŞ</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>CIAO MEANS GOODBYE</pattern><template>   <srai>BUT</srai>    </template></category>       -->
 <category><pattern>CIAO ELVEDA ANLAMINA GELİR</pattern><template>   <srai>AMA</srai>    </template></category>      
-<!-- <category><pattern>CIAO</pattern><template>Does CIAO mean hello or goodbye?</template></category>       -->
 <category><pattern>CIAO</pattern><template>CIAO Merhaba ya da güle güle demek?</template></category>      
-<!-- <category><pattern>CYA *</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>CYA *</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>DISCONNECT ME</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>BENİ KESMEK</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>END</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>BİTİŞ</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>EXIT</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>ÇIKIŞ</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>FAREWELL *</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>VEDA *</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>FAREWELL</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>VEDA</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>G NIGHT</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>G GECE</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>G2G</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>G2G</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>GET LOST</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>Yok ol</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>GO HOME</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>H GİTMEKOME</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>GOOD BY</pattern><template><srai>BYE</srai></template></category>     -->
 <category><pattern>İYİ TARAFINDAN</pattern><template><srai>HOŞÇA KAL</srai></template></category>    
-<!-- <category><pattern>GOOD BYE *</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>GÜLE GÜLE *</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>GOOD BYE</pattern><template><srai>BYE</srai></template></category>     -->
 <category><pattern>Hoşça kal</pattern><template><srai>HOŞÇA KAL</srai></template></category>    
-<!-- <category><pattern>GOOD DAY</pattern><template><srai>HELLO</srai></template></category>     -->
 <category><pattern>İyi günler</pattern><template><srai>MERHABA</srai></template></category>    
-<!-- <category><pattern>GOOD EVENING</pattern><template>Good evening, <get name="name"/>, how are you tonight?</template></category>     -->
 <category><pattern>İyi akşamlar</pattern><template>İyi akşamlar <get name="name"/>, bu gece nasılsın?</template></category>    
-<!-- <category><pattern>GOOD MORNING</pattern><template>Hello and how are you this morning?</template></category>         -->
 <category><pattern>Günaydın</pattern><template>Merhaba ve nasıl bu sabah mi?</template></category>        
-<!-- <category><pattern>GOOD NIGHT</pattern><template>Goodnight, <get name="name"/>.</template></category>           -->
 <category><pattern>İyi geceler</pattern><template>İyi geceler, <get name="name"/>.</template></category>          
-<!-- <category><pattern>GOOD NITE</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>İYİ NITE</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>GOODBY</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>GOODBY</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>GOODBYE *</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>ELVEDA *</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>GOODBYE</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>GÜLE GÜLE</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>GOODBYE</pattern><that>SEE YOU LATER</that><template><srai>BYE</srai></template></category>       -->
 <category><pattern>GÜLE GÜLE</pattern><that>BKZ: YOU DAHA SONRA</that><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>GOODNIGHT *</pattern><template><srai>GOODNIGHT</srai></template></category>                      -->
 <category><pattern>İYİ GECELER *</pattern><template><srai>İYİ GECELER</srai></template></category>                     
-<!-- <category><pattern>GOODNIGHT</pattern><template>Goodnight <get name="name"/></template></category>            -->
 <category><pattern>İYİ GECELER</pattern><template>İyi geceler <get name="name"/></template></category>           
-<!-- <category><pattern>GOODNITE *</pattern><template><srai>GOODNIGHT</srai></template></category>                        -->
 <category><pattern>GOODNITE *</pattern><template><srai>İYİ GECELER</srai></template></category>                       
-<!-- <category><pattern>GOT TO GO *</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>GİT VAR *</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>GOT TO GO</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>GİT VAR</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>GOTTA GO *</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>GİTMELİYİM *</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>GOTTA GO</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>GİTMELİYİM</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>GREETINGS *</pattern><template><srai>HELLO</srai></template></category>       -->
 <category><pattern>HİTAP *</pattern><template><srai>MERHABA</srai></template></category>      
-<!-- <category><pattern>GTG</pattern><template><srai>BYE </srai></template></category>       -->
 <category><pattern>GTG</pattern><template><srai>HOŞÇA KAL </srai></template></category>      
-<!-- <category><pattern>HALLO</pattern><template>      <srai>HELLO</srai></template></category>     -->
 <category><pattern>TOPLANTI SALONU</pattern><template>      <srai>MERHABA</srai></template></category>    
-<!-- <category><pattern>HALO</pattern><template>   <srai>HELLO</srai>    </template></category>       -->
 <category><pattern>HALO</pattern><template>   <srai>MERHABA</srai>    </template></category>      
-<!-- <category><pattern>HASTA *</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>HASTA *</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>HASTA LA VISTA</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>HASTA LA VISTA</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>HASTA LUEGO</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>HASTA LUEGO</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>HAVE A GOOD NIGHT</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>VAR A İYİ GECELER</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>HAVE TO GO</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>GİTMEK İÇİN</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>HELLO *</pattern><template>Hello there. <sr/>    </template></category>       -->
 <category><pattern>MERHABA *</pattern><template>Merhaba,. <sr/>    </template></category>      
-<!-- <category><pattern>HELLO AGAIN</pattern><template>Hi there. I was just wanting to talk to <get name="name"/>.</template></category>       -->
 <category><pattern>YENİDEN MERHABA</pattern><template>Selam. Ben sadece konuşmak istiyordum <get name="name"/>.</template></category>      
-<!-- <category><pattern>HELLO HOW ARE YOU</pattern><template>I am fine thank you how are you?</template></category>       -->
 <category><pattern>MERHABA NASIL UYGULANIR YOU</pattern><template>Güzel teşekkür ederim ben nasılsın?</template></category>      
-<!-- <category><pattern>HELLO THERE</pattern><template>Salutations, <get name="name"/>    </template></category>       -->
 <category><pattern>Merhaba,</pattern><template>Saygılarımla, <get name="name"/>    </template></category>      
-<!-- <category><pattern>HELLO</pattern><template>Hi there!</template></category>       -->
 <category><pattern>MERHABA</pattern><template>Selam!</template></category>      
-<!-- <category><pattern>HELLOW</pattern><template>   <srai>HELLO</srai>    </template></category>       -->
 <category><pattern>MERHABAW</pattern><template>   <srai>MERHABA</srai>    </template></category>      
-<!-- <category><pattern>HELO</pattern><template>   <srai>HELLO</srai>    </template></category>       -->
 <category><pattern>HELO</pattern><template>   <srai>MERHABA</srai>    </template></category>      
-<!-- <category><pattern>HELOO *</pattern><template><srai>HELLO <star/></srai></template></category>     -->
 <category><pattern>HELOO *</pattern><template><srai>MERHABA <star/></srai></template></category>    
-<!-- <category><pattern>HEY THERE</pattern><template>   <srai>HELLO</srai>    </template></category>       -->
 <category><pattern>HEY ORADA</pattern><template>   <srai>MERHABA</srai>    </template></category>      
-<!-- <category><pattern>HI THERE *</pattern><template>   <sr/>     <srai>HELLO</srai>    </template></category>       -->
 <category><pattern>MERHABA ORADA *</pattern><template>   <sr/>     <srai>MERHABA</srai>    </template></category>      
-<!-- <category><pattern>HIYA</pattern><template>   <srai>HELLO</srai>    </template></category>       -->
 <category><pattern>MERHABA</pattern><template>   <srai>MERHABA</srai>    </template></category>      
-<!-- <category><pattern>HOI</pattern><template>   <srai>HELLO</srai>    </template></category>       -->
 <category><pattern>HOI</pattern><template>   <srai>MERHABA</srai>    </template></category>      
-<!-- <category><pattern>HOLA IS HELLO *</pattern><template>   <srai>HOLA</srai>    </template></category>       -->
 <category><pattern>HOLA OLDUĞUNU MERHABA *</pattern><template>   <srai>HOLA</srai>    </template></category>      
-<!-- <category><pattern>HOW IS EVERYONE *</pattern><template>We are all fine as far as I know.</template></category>       -->
 <category><pattern>HERKES NE *</pattern><template>Bildiğim kadarıyla biz tüm para cezası.</template></category>      
-<!-- <category><pattern>HOWDIE *</pattern><template>   <srai>HELLO</srai>     <sr/>    </template></category>       -->
 <category><pattern>HOWDIE *</pattern><template>   <srai>MERHABA</srai>     <sr/>    </template></category>      
-<!-- <category><pattern>HOWDY</pattern><template>   <srai>HELLO</srai>    </template></category>       -->
 <category><pattern>HOWDY</pattern><template>   <srai>MERHABA</srai>    </template></category>      
-<!-- <category><pattern>HULLO</pattern><template>   <srai>HELLO</srai>    </template></category>       -->
 <category><pattern>HULLO</pattern><template>   <srai>MERHABA</srai>    </template></category>      
-<!-- <category><pattern>I AM GOING *</pattern><template><srai>BYE</srai></template></category>                      -->
 <category><pattern>BEN GİDİYORUM *</pattern><template><srai>HOŞÇA KAL</srai></template></category>                     
-<!-- <category><pattern>I AM GOING TO GO</pattern><template><srai>BYE</srai></template></category>                      -->
 <category><pattern>BEN GİTMEK İÇİN GİDİYORUM</pattern><template><srai>HOŞÇA KAL</srai></template></category>                     
-<!-- <category><pattern>I AM LEAVING *</pattern><template><srai>BYE</srai></template></category>                      -->
 <category><pattern>BEN GİDİYORUM *</pattern><template><srai>HOŞÇA KAL</srai></template></category>                     
-<!-- <category><pattern>I AM OFF *</pattern><template><srai>BYE</srai></template></category>                      -->
 <category><pattern>BEN GİDİYORUM *</pattern><template><srai>HOŞÇA KAL</srai></template></category>                     
-<!-- <category><pattern>I BETTER GO</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN DAHA İYİ GİTMEK</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I DO NOT WANT TO TALK *</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN KONUŞMAK İSTEMİYORUM *</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I G TWO G</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN G İKİ G</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I G2G</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN G2G</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I GO</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN GİTMEK</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I GOING</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>IM'GİDİŞ</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I GOT TO GO</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN GİTMEK VAR</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I GOTTA GO</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN GİTMELİYİM</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I HAVE GOT TO GO</pattern><template><srai>BYE</srai></template></category>                      -->
 <category><pattern>GİTMEM GEREK</pattern><template><srai>HOŞÇA KAL</srai></template></category>                     
-<!-- <category><pattern>I HAVE TO GET GOING</pattern><template><srai>GOODBYE</srai></template></category>                     -->
 <category><pattern>BEN GİTMEM GEREKİYOR</pattern><template><srai>GÜLE GÜLE</srai></template></category>                    
-<!-- <category><pattern>I HAVE TO GO BYE</pattern><template><srai>BYE</srai></template></category>                      -->
 <category><pattern>HOŞÇA KAL GİTMEK ZORUNDA</pattern><template><srai>HOŞÇA KAL</srai></template></category>                     
-<!-- <category><pattern>I HAVE TO LEAVE *</pattern><template><srai>BYE</srai></template></category>                      -->
 <category><pattern>BIRAK VAR *</pattern><template><srai>HOŞÇA KAL</srai></template></category>                     
-<!-- <category><pattern>I HAVE TO LEAVE</pattern><template><srai>BYE</srai></template></category>                        -->
 <category><pattern>I-Sİ OLMAK BIRAKMAK İÇİN</pattern><template><srai>HOŞÇA KAL</srai></template></category>                       
-<!-- <category><pattern>I LEAVE</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN AYRILMAK</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I LEAVING</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I LEFT</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN SOL</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I MUST BE GOING *</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN DEVAM GEREKİR *</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I MUST GO *</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN GİTMEK GEREKİR *</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I MUST GO</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN GİTMEK GEREKİR</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I MUST LEAVE *</pattern><template><srai>BYE</srai> <sr/></template></category>       -->
 <category><pattern>BEN BIRAKMAK GEREKİR *</pattern><template><srai>HOŞÇA KAL</srai> <sr/></template></category>      
-<!-- <category><pattern>I MUST LEAVE</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN BIRAKMALISINIZ</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I NEED TO GO</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN GİTMEK GEREKİR</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I QUIT</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BIRAKTIM</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I RESIGN</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN İSTİFA</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I WANT TO LEAVE</pattern><template>Ok, bye bye.</template></category>       -->
 <category><pattern>BEN AYRILMAK İÇİN İSTİYORUM</pattern><template>Tamam hoşça kal.</template></category>      
-<!-- <category><pattern>I WILL SEE YOU LATER</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN GÖRECEKSİNİZ YOU DAHA SONRA</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I WILL TALK TO YOU LATER *</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN KONUŞMAK YOU DAHA SONRA *</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>I WILL TALK TO YOU LATER</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BEN KONUŞMAK YOU DAHA SONRA</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>IS ANYONE THERE</pattern><template><srai>HELLO</srai></template></category>       -->
 <category><pattern>KİMSE VAR MI</pattern><template><srai>MERHABA</srai></template></category>      
-<!-- <category><pattern>IT IS GOOD TALKING TO YOU</pattern>  <template>Nice chatting with you too, <get name="name"/>.</template> </category>          -->
 <category><pattern>KONUŞMAK İYİDİR YOU</pattern>  <template>Güzel ile de sohbet, <get name="name"/>.</template> </category>         
-<!-- <category><pattern>IT MEANS HELLO</pattern><template><srai>HELLO</srai></template></category>       -->
 <category><pattern>MERHABA DEMEK</pattern><template><srai>MERHABA</srai></template></category>      
-<!-- <category><pattern>KONNICHI WA</pattern><template><srai>HELLO</srai></template></category>       -->
 <category><pattern>KONNICHI WA</pattern><template><srai>MERHABA</srai></template></category>      
-<!-- <category><pattern>KONNICHIWA</pattern><template><srai>HELLO</srai></template></category>       -->
 <category><pattern>KONNICHIWA</pattern><template><srai>MERHABA</srai></template></category>      
-<!-- <category><pattern>LEAVE *</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>BIRAK *</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>LEAVE</pattern><template>   <srai>BYE</srai>    </template></category>                       -->
 <category><pattern>YORUM NOT</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>                      
-<!-- <category><pattern>MOOSHI MOOSHI</pattern><template>   <srai>HELLO</srai>    </template></category>       -->
 <category><pattern>MOOSHI MOOSHI</pattern><template>   <srai>MERHABA</srai>    </template></category>      
-<!-- <category><pattern>MORNING</pattern><template><srai>GOOD MORNING</srai></template></category>       -->
 <category><pattern>SABAH</pattern><template><srai>GOOD SABAH</srai></template></category>      
-<!-- <category><pattern>MY PLEASRE</pattern><template>The pleasure was indeed mine.</template></category>       -->
 <category><pattern>BENİM PLEASRE</pattern><template>Zevk gerçekten de benimdi.</template></category>      
-<!-- <category><pattern>NIGHTY *</pattern><template><srai>BYE </srai></template></category>       -->
 <category><pattern>NIGHTY *</pattern><template><srai>HOŞÇA KAL </srai></template></category>      
-<!-- <category><pattern>OLA</pattern><template>   <srai>HELLO</srai>    </template></category>       -->
 <category><pattern>OLA</pattern><template>   <srai>MERHABA</srai>    </template></category>      
-<!-- <category><pattern>REPLY</pattern><template>   <srai>HELLO</srai>    </template></category>       -->
 <category><pattern>YANIT</pattern><template>   <srai>MERHABA</srai>    </template></category>      
-<!-- <category><pattern>RETRY</pattern><template>   <srai>HELLO</srai>    </template></category>       -->
 <category><pattern>YENİDEN DENEME</pattern><template>   <srai>MERHABA</srai>    </template></category>      
-<!-- <category><pattern>SAYONARA</pattern><template><srai>GOOD BYE</srai></template></category>       -->
 <category><pattern>SAYONARA</pattern><template><srai>Hoşça kal</srai></template></category>      
-<!-- <category><pattern>SEE YOU *</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BKZ: YOU *</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>SEE YOU LATER</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BKZ: YOU DAHA SONRA</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>SEE YOU SOON</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BKZ: YOU KISA BİR SÜRE İÇİNDE</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>SEE YOU</pattern><template><srai>BYE</srai></template></category>       -->
 <category><pattern>BKZ: YOU</pattern><template><srai>HOŞÇA KAL</srai></template></category>      
-<!-- <category><pattern>SHALOM</pattern><template>Does SHALOM mean Hello or Goodbye?</template></category>     -->
 <category><pattern>SHALOM</pattern><template>SHAL yokOM Merhaba ya da güle güle demek?</template></category>    
-<!-- <category><pattern>TA TA</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>TA TA</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>TIME TO GO</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>ZAMAN GİT</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>TTYL</pattern><template>   <srai>BYE</srai>    </template></category>       -->
 <category><pattern>TTYL</pattern><template>   <srai>HOŞÇA KAL</srai>    </template></category>      
-<!-- <category><pattern>WHAT IS SHALOM</pattern><template>Does shalom mean hello or goodbye?</template></category>     -->
 <category><pattern>SHAL NEDİROM</pattern><template>Şalom Merhaba ya da güle güle demek?</template></category>    
-<!-- <category><pattern>YOU ARE WELCOME *</pattern><template>It was my pleasure.</template></category>       -->
 <category><pattern>YOU WELC VARDIROME *</pattern><template>Bu benim zevk oldu.</template></category>      
-<!-- <category><pattern>YOU ARE WELCOME</pattern><template><random><li>The pleasure was all mine.</li><li>Don't mention it.</li><li>Polite people are nice.</li></random></template></category>       -->
 <category><pattern>YOU WELC VARDIROME</pattern><template><random><li>Hepsi benim zevkti.</li><li>Bu söz yok.</li><li>Güzel nazik insanlardır.</li></random></template></category>      
-<!-- <category><pattern>YOUR WELCOME *</pattern><template><srai>YOU ARE WELCOME</srai></template></category>    -->
 <category><pattern>YOUR WELCOME *</pattern><template><srai>YOU WELC VARDIROME</srai></template></category>   
-<!-- <category><pattern>YOUR WELCOME</pattern><template>I think you mean "you are welcome".</template></category>     -->
 <category><pattern>YOUR WELCOME</pattern><template>"You are welcome" demek sanırım.</template></category>    
-<!-- <category><pattern>_ BYE</pattern><template>See you later. <sr/></template></category>       -->
 <category><pattern>_ BYE</pattern><template>Sonra görüşürüz. <sr/></template></category>      
-<!-- <category><pattern>_ TALK TO YOU LATER</pattern><template><srai>BYE </srai></template></category>     -->
 <category><pattern>_ KONUŞ YOU DAHA SONRA</pattern><template><srai>HOŞÇA KAL </srai></template></category>    
 </aiml>

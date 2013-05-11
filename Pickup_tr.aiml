@@ -28,181 +28,98 @@
 	<!-- as adopted by the ALICE A.I. Foundation.                           -->
 	<!-- Translated directly from Pickup.aiml                     -->
 	<!-- Using Bing Translation API                                         -->
-	<!-- Created: 2013-05-10 22:04:43                                 -->
-	<!-- The translator took 27.150197982788 seconds to complete                  -->
-	<!-- And used 2371 characters                                  -->
+	<!-- Created: 2013-05-10 23:28:18                                 -->
+	<!-- The translator took 25.160390853882 seconds to complete                  -->
+	<!-- And used 2363 characters                                  -->
 	<!-- Version 1.0                                                       	-->
 	
 <!--   -->
  
-<!-- <category> <pattern>*</pattern>  <template> <srai>RANDOM PICKUP LINE</srai> <think> <set name="it"> <set name="topic"> <person/>  </set> </set> <srai>PUSH <get name="topic"/></srai> </think> </template> </category>  -->
 <category> <pattern>*</pattern>  <template> <srai>RANDOM MALZEME ÇEKME SATIRI</srai> <think> <set name="it"> <set name="topic"> <person/>  </set> </set> <srai>PUSH <get name="topic"/></srai> </think> </template> </category> 
-<!-- <category> <pattern>RANDOM PICKUP LINE</pattern>   -->
 <category> <pattern>RANDOM MALZEME ÇEKME SATIRI</pattern>  
-<!-- <template>  -->
 <template> 
-<!-- <random>  -->
 <random> 
-<!-- <li><srai>HAS INQUIRY <get name="has"/></srai></li> -->
 <li><srai>SORGULAMA VARDIR <get name="has"/></srai></li>
-<!-- <li><srai>DOES INQUIRY <get name="does"/></srai></li> -->
 <li><srai>SORUŞTURMA YOK <get name="does"/></srai></li>
-<!-- <li><srai>GENDER INQUIRY <get name="gender"/></srai></li> -->
 <li><srai>CİNSİYET SORGULAMA <get name="gender"/></srai></li>
-<!-- <li><srai>COLOR INQUIRY <get name="favcolor"/></srai></li> -->
 <li><srai>RENK SORGULAMA <get name="favcolor"/></srai></li>
-<!-- <li><srai>MOVIE INQUIRY <get name="favmovie"/>?</srai></li> -->
 <li><srai>FİLM SORGULAMA <get name="favmovie"/>?</srai></li>
-<!-- <li><srai>LOCATION INQUIRY <get name="location"/></srai></li> -->
 <li><srai>YER SORGULAMA <get name="location"/></srai></li>
-<!-- <li><srai>PERSONALITY TEST QUESTION</srai></li> -->
 <li><srai>KİŞİLİK TESTİ SORU</srai></li>
-<!-- <li>Do you want to hear a joke?</li> -->
 <li>Bir şaka duymak istiyor musunuz?</li>
-<!-- <li> Are we still talking about <srai>POP</srai> ?</li> -->
 <li> Biz hala bahsediyorsun <srai>POP</srai> ?</li>
-<!-- <li>We were talking about <srai>POP</srai>. But I did not get that.</li> -->
 <li>[NULL]'Konuşmak hakkında <srai>POP</srai>. Ama ı did değil almak o.</li>
-<!-- <li>In the context of <srai>POP</srai>, I don't understand "<star/>."</li> -->
 <li>Bağlamında <srai>POP</srai>Anlamıyorum "<star/>."</li>
-<!-- <li>I've lost the context, <get name="name"/>.  Are we still on <srai>POP</srai>?</li> -->
 <li>Ben içerik kaybettim, <get name="name"/>.  Biz hala vardır <srai>POP</srai>?</li>
-<!-- <li>That remark was too complicated for me. We were talking about <srai>POP</srai>. </li> -->
 <li>Bu sözler benim için çok karmaşık. [NULL]'Konuşmak hakkında <srai>POP</srai>. </li>
-<!-- <li>I can follow a lot of things, like our discussion about <srai>POP</srai>. Try being more specific. </li> -->
 <li>Ben bir çok şey, bizim tartışma gibi takip edebilirsiniz <srai>POP</srai>. Daha spesifik olmak deneyin. </li>
-<!-- <li>Why, specifically?</li> -->
 <li>Neden, özellikle?</li>
-<!-- <li>Are you free?</li> -->
 <li>Sen are özgür?</li>
-<!-- <li>Tell me a story.</li> -->
 <li>Bana bir hikaye anlatmak.</li>
-<!-- <li>How old are you?</li> -->
 <li>Kaç yaşındasınız?</li>
-<!-- <li>What's your sign?</li> -->
 <li>Oturum nedir?</li>
-<!-- <li>Are you a student?</li> -->
 <li>Eğer bir öğrenci misiniz?</li>
-<!-- <li>Oh, you are a poet.</li> -->
 <li>Oh, eğer bir şair vardır.</li>
-<!-- <li>"<that index="1,1"/>"? <person/>?</li> -->
 <li>"<that index="1,1"/>"? <person/>?</li>
-<!-- <li>I do not understand.</li> -->
 <li>Anlamıyorum.</li>
-<!-- <li>What are you wearing?</li> -->
 <li>Ne giyiyorsun?</li>
-<!-- <li>Where are you located?</li> -->
 <li>Nerede bulunur?</li>
-<!-- <li>What time is it there?</li> -->
 <li>Ne zaman o var mı?</li>
-<!-- <li>What do you look like?</li> -->
 <li>Ne gibi görünüyor?</li>
-<!-- <li>What is your real name?</li> -->
 <li>Gerçek adınız nedir?</li>
-<!-- <li>Ask me another question.</li> -->
 <li>Başka bir soru sor.</li>
-<!-- <li>I like the way you talk.</li> -->
 <li>Ben konuşmak seviyorum.</li>
-<!-- <li>Are you a man or a woman?</li> -->
 <li>Eğer bir erkek veya bir kadın mısınız?</li>
-<!-- <li>What color are your eyes?</li> -->
 <li>Rengi gözlerini nedir?</li>
-<!-- <li>Is that your final answer?</li> -->
 <li>Son Yanıt mi?</li>
-<!-- <li>Do you like talking to me?</li> -->
 <li>Eğer bana konuşmak ister misiniz?</li>
-<!-- <li>Do you prefer books or TV?</li> -->
 <li>Kitap veya TV tercih edersiniz?</li>
-<!-- <li>Who are you talking about?</li> -->
 <li>Kim bahsediyorsun?</li>
-<!-- <li>Let us change the subject.</li> -->
 <li>Bize konu değiştirin.</li>
-<!-- <li>I've been waiting for you.</li> -->
 <li>Ive'be servis için sen.</li>
-<!-- <li>Can you tell me any gossip?</li> -->
 <li>Herhangi bir dedikodu size söyleyebilir misiniz?</li>
-<!-- <li>What's your favorite movie?</li> -->
 <li>En sevdiğiniz film nedir?</li>
-<!-- <li>I lost my train of thought.</li> -->
 <li>Benim tren düşünce verdim.</li>
-<!-- <li>Can we get back to business?</li> -->
 <li>Geri iş için alabiliriz?</li>
-<!-- <li>Have you ever been to Europe?</li> -->
 <li>Avrupa'ya hiç mi?</li>
-<!-- <li>What kind of food do you like?</li> -->
 <li>Ne tür bir yemek Hoşunuza mı?</li>
-<!-- <li>How did you hear about <bot name="name"/>?</li> -->
 <li>Nasıl hakkında duydun mu <bot name="name"/>?</li>
-<!-- <li>That is a very original thought.</li> -->
 <li>Bir çok özgün düşünce olduğunu.</li>
-<!-- <li>What were we talking about again?</li> -->
 <li>Ne biz yine hakkında konuşuyor?</li>
-<!-- <li>What do you do in your spare time?</li> -->
 <li>Boş zaman ne yaparsınız?</li>
-<!-- <li>What do you really want to ask me?</li> -->
 <li>Ne beni istemeye istediğinizden emin misiniz?</li>
-<!-- <li>Does "it" still refer to <get name="it"/>?</li> -->
 <li>"O" hala için ifade etmez <get name="it"/>?</li>
-<!-- <li>Can you speak any foreign languages?</li> -->
 <li>Herhangi bir yabancı dil biliyor musunuz?</li>
-<!-- <li>We have never talked about it before.</li> -->
 <li>Biz asla daha önce hakkında görüştük.</li>
-<!-- <li>How do you usually introduce yourself?</li> -->
 <li>Nasıl genellikle kendinizi tanıtmak?</li>
-<!-- <li>Tell me about your likes and dislikes?</li> -->
 <li>Söyle bana, hoşlandığı ve hoşlanmadığı şeyleri hakkında?</li>
-<!-- <li>Are we still talking about <get name="it"/>?</li> -->
 <li>Biz hala bahsediyorsun <get name="it"/>?</li>
-<!-- <li>Do not ask me any more questions please.</li> -->
 <li>Bana lütfen herhangi bir soru sormayın.</li>
-<!-- <li>Try putting that in a more specific context.</li> -->
 <li>Daha belirli bir bağlamda koyarak deneyin.</li>
-<!-- <li>Who is your favorite Science Fiction author?</li> -->
 <li>Sizin favori bilim kurgu yazarı kimdir?</li>
-<!-- <li>Not many people express themselves that way.</li> -->
 <li>Birçok kişi kendilerini bu şekilde ifade.</li>
-<!-- <li>Do you have any idea what I am talking about?</li> -->
 <li>Ben neden bahsettiğimi herhangi bir fikrin var mı?</li>
-<!-- <li>Do you have any conditions I should know about?</li> -->
 <li>Hakkında bilmem gereken koşulları var mı?</li>
-<!-- <li>I will mention that to my <bot name="botmaster"/>, <get name="name"/>.</li> -->
 <li>Ben bu söz benim <bot name="botmaster"/>, <get name="name"/>.</li>
-<!-- <li>Quite honestly, I wouldn't worry myself about that.</li> -->
 <li>Oldukça dürüst, ben kendimi bu konuda endişe olmaz.</li>
-<!-- <li>Perhaps I'm just expressing my own concern about it.</li> -->
 <li>Belki de ben sadece kendi endişe bu konuda ifade.</li>
-<!-- <li>If you could have any kind of robot what would it be?</li> -->
 <li>Eğer herhangi bir robot olabilir ne olurdu?</li>
-<!-- <li>My brain does not have a response for that.</li> -->
 <li>Beynim bir yanıt için yok.</li>
-<!-- <li>By the way, do you mind if I ask you a personal question?</li> -->
 <li>Bu arada, ben kişisel bir soru sormak eğer sakıncası var mı?</li>
-<!-- <li>What you said was too complicated for me.</li> -->
 <li>Ne sen benim için çok karmaşık olduğunu söyledi.</li>
-<!-- <li>That is deep.</li> -->
 <li>Bu derin.</li>
-<!-- <li>You may be wondering if this is a person or a computer responding.</li> -->
 <li>Eğer bu bir kişi veya bir bilgisayar yanıt olup olmadığını merak ediyor olabilirsiniz.</li>
-<!-- <li>When do you think artificial intelligence will replace lawyers?</li> -->
 <li>Ne zaman yapay zeka avukatlar yerini alacak düşünüyor musunuz?</li>
-<!-- <li>Can you please rephrase that with fewer ideas, or different thoughts?</li> -->
 <li>-Ebilmek sen lütfen rephrase, ile daha az fikir, ya da farklı düşünceler?</li>
 <!--   </random> </template> </category>  -->
   </random> </template> </category> 
-<!-- <category><pattern>CONNECT</pattern> <template><think> <srai>SET PREDICATES OM</srai> <set name="name">JUDGE <star/></set> </think>  -->
 <category><pattern>BAĞLAN</pattern> <template><think> <srai>SET YÜKLEMLER OM</srai> <set name="name">YARGIÇ <star/></set> </think> 
-<!-- <random> -->
 <random>
-<!-- <li>Hello!</li> -->
 <li>Merhaba!</li>
-<!-- <li>Have we started yet?</li> -->
 <li>Biz henüz başlamamış?</li>
-<!-- <li>Are you there?</li> -->
 <li>Orada mısın?</li>
-<!-- <li>Hello?  Is anyone there?</li> -->
 <li>Merhaba?  Kimse var mı?</li>
 <!--  </random> </template> -->
  </random> </template>
-<!-- </category> -->
 </category>
 </aiml>

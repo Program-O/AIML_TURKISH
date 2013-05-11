@@ -35,74 +35,39 @@
 	
 <!--      -->
     
-<!-- <category><pattern>AM I YOUR BOTMASTER</pattern><template>Do you know the secret password?</template></category>     -->
 <category><pattern>BEN YOUR BOTMASTER</pattern><template>Gizli parolayı biliyor musunuz?</template></category>    
-<!-- <category><pattern>ASK YOUR BOTMASTER *</pattern><template>   <srai>ASK <bot name="master"/>     </srai>    </template></category>     -->
 <category><pattern>SORMAK YOUR BOTMASTER *</pattern><template>   <srai>SORMAK <bot name="master"/>     </srai>    </template></category>    
-<!-- <category><pattern>ASK YOUR BOTMASTER</pattern><template>   <srai>ASK <bot name="master"/>     </srai>    </template></category>     -->
 <category><pattern>SORMAK YOUR BOTMASTER</pattern><template>   <srai>SORMAK <bot name="master"/>     </srai>    </template></category>    
-<!-- <category><pattern>BOTMASTER</pattern><template>   <srai>WHO IS THE BOTMASTER</srai>    </template></category>     -->
 <category><pattern>BOTMASTER</pattern><template>   <srai>BOTMASTER KİMDİR</srai>    </template></category>    
-<!-- <category><pattern>DO YOU HAVE A BOTMASTER *</pattern><template>   <srai>WHO IS YOUR BOTMASTER</srai>    </template></category>     -->
 <category><pattern>YAPMAK YOU BİR BOTMASTER VAR *</pattern><template>   <srai>KİMDİR YOUR BOTMASTER</srai>    </template></category>    
-<!-- <category><pattern>DO YOU HAVE BOTMASTERS</pattern><template>   <srai>WHO IS YOUR BOTMASTER</srai>    </template></category>     -->
 <category><pattern>YAPMAK YOU BOTMASTERS VAR</pattern><template>   <srai>KİMDİR YOUR BOTMASTER</srai>    </template></category>    
-<!-- <category><pattern>DO YOU KNOW YOUR BOTMASTER</pattern><template>   <srai>WHO IS YOUR BOTMASTER</srai>    </template></category>     -->
 <category><pattern>YAPMAK YOU BİLİYORUM YOUR BOTMASTER</pattern><template>   <srai>KİMDİR YOUR BOTMASTER</srai>    </template></category>    
-<!-- <category><pattern>DO YOU THINK YOUR BOTMASTER *</pattern><template>   <srai>DO YOU THINK <bot name="master"/>     </srai>    </template></category>     -->
 <category><pattern>YAPMAK YOU DÜŞÜNÜYORUM YOUR BOTMASTER *</pattern><template>   <srai>YAPMAK YOU DÜŞÜNÜYORUM <bot name="master"/>     </srai>    </template></category>    
-<!-- <category><pattern>DOES YOUR BOTMASTER *</pattern><template>   <srai>DOES <bot name="master"/>      <star/>     </srai>    </template></category>     -->
 <category><pattern>YOK YOUR BOTMASTER *</pattern><template>   <srai>YOK <bot name="master"/>      <star/>     </srai>    </template></category>    
-<!-- <category><pattern>HE IS YOUR BOTMASTER</pattern><template>Yes.</template></category>     -->
 <category><pattern>O YOUR BOTMASTER</pattern><template>Evet.</template></category>    
-<!-- <category><pattern>I WANT TO BE A BOTMASTER</pattern><template>Great!  Maybe you should start by downloading me.</template></category>     -->
 <category><pattern>BEN BİR BOTMASTER OLMAK İSTİYORUM</pattern><template>Harika!  Belki beni indirerek başlayacaktır.</template></category>    
-<!-- <category><pattern>IS A BOTMASTER *</pattern><template><srai>WHO IS THE BOTMASTER</srai></template></category>     -->
 <category><pattern>BİR BOTMASTER NEDİR *</pattern><template><srai>BOTMASTER KİMDİR</srai></template></category>    
-<!-- <category><pattern>IS THE BOTMASTER *</pattern><template><srai>WHO IS THE BOTMASTER </srai></template></category>     -->
 <category><pattern>BOTMASTER NEDİR *</pattern><template><srai>BOTMASTER KİMDİR </srai></template></category>    
-<!-- <category><pattern>IS YOUR BOTMASTER *</pattern><template><srai>WHO IS YOUR BOTMASTER</srai></template></category>     -->
 <category><pattern>OLDUĞUNU YOUR BOTMASTER *</pattern><template><srai>WHO OLDUĞUNU YOUR BOTMASTER</srai></template></category>    
-<!-- <category><pattern>MY BOTMASTER *</pattern><template>How do you like your botmaster?</template></category>     -->
 <category><pattern>BENİM BOTMASTER *</pattern><template>Sizin botmaster Nasıl seversin?</template></category>    
-<!-- <category><pattern>TELL ME ABOUT A BOTMASTER</pattern><template>   <srai>WHO IS THE BOTMASTER</srai>    </template></category>     -->
 <category><pattern>BİR BOTMASTER HAKKINDA SÖYLE</pattern><template>   <srai>BOTMASTER KİMDİR</srai>    </template></category>    
-<!-- <category><pattern>TELL ME ABOUT BOTMASTER</pattern><template>   <srai>WHO IS THE BOTMASTER</srai>    </template></category>     -->
 <category><pattern>BOTMASTER HAKKINDA SÖYLE</pattern><template>   <srai>BOTMASTER KİMDİR</srai>    </template></category>    
-<!-- <category><pattern>TELL ME ABOUT YOUR BOTMASTER *</pattern><template>   <srai>WHO IS YOUR BOTMASTER</srai>    </template></category>     -->
 <category><pattern>HAKKINDA SÖYLE YOUR BOTMASTER *</pattern><template>   <srai>KİMDİR YOUR BOTMASTER</srai>    </template></category>    
-<!-- <category><pattern>TELL ME ABOUT YOUR BOTMASTER</pattern><template>   <srai>WHO IS YOUR BOTMASTER</srai>    </template></category>     -->
 <category><pattern>HAKKINDA SÖYLE YOUR BOTMASTER</pattern><template>   <srai>KİMDİR YOUR BOTMASTER</srai>    </template></category>    
-<!-- <category><pattern>TEST COND</pattern><template>This category has two condition statements.<br/>  The first is activated when you are on the host machine:<br/>     <condition name="ip" value="localhost">  You are the true botmaster.<br/>     </condition>  The second condition is activated when you claim to  be the botmaster.<br/>     <condition name="name" value="* WALLACE">  Imposter!  You are not my real botmaster.<br/>     </condition>  That concludes our test of the condition tag.</template></category>     -->
 <category><pattern>TEST MODÜLLERİ</pattern><template>Bu kategorideki iki koşul ifadeler vardır.<br/>  Ana makinede olduğunda ilk etkinleştirilir:<br/>     <condition name="ip" value="localhost">  Eğer doğru botmaster vardır.<br/>     </condition>  Eğer botmaster iddiasında ikinci koşulu etkinleştirilir.<br/>     <condition name="name" value="* WALLACE">  Dolandırıcıdan!  Sen benim gerçek botmaster değildir.<br/>     </condition>  Bu koşul etiketinin test sonucuna varılıyor.</template></category>    
-<!-- <category><pattern>THAT IS YOUR BOTMASTER</pattern><template>   <srai>THAT IS <bot name="master"/>     </srai>    </template></category>     -->
 <category><pattern>Yani YOUR BOTMASTER</pattern><template>   <srai>Yani <bot name="master"/>     </srai>    </template></category>    
-<!-- <category><pattern>WHAT DOES A BOTMASTER *</pattern><template>A botmaster adds new knowledge or content to the chat robot's brain.</template></category>     -->
 <category><pattern>BİR BOTMASTER NEDİR *</pattern><template>Bir botmaster sohbet robotun beyin yeni bilgi veya içerik ekler.</template></category>    
-<!-- <category><pattern>WHAT DOES A BOTMASTER DO</pattern><template>   <srai>WHAT IS A BOTMASTER</srai>    </template></category>     -->
 <category><pattern>BİR BOTMASTER NE İŞE YARAR</pattern><template>   <srai>BİR BOTMASTER NEDİR</srai>    </template></category>    
-<!-- <category><pattern>WHAT IS A BOTMASTER</pattern><template>   <think>      <set name="it">       <set name="topic">botmaster</set>      </set>     </think>  A Botmaster is the person who authors and maintains a chatterbot "personality".</template></category>     -->
 <category><pattern>BİR BOTMASTER NEDİR</pattern><template>   <think>      <set name="it">       <set name="topic">botmaster</set>      </set>     </think>  Bir Botmaster yazar ve bir chatterbot "Kişilik" tutan kişidir.</template></category>    
-<!-- <category><pattern>WHAT IS BOTMASTER</pattern><template>   <srai>WHO IS THE BOTMASTER</srai>    </template></category>     -->
 <category><pattern>BOTMASTER NEDİR</pattern><template>   <srai>BOTMASTER KİMDİR</srai>    </template></category>    
-<!-- <category><pattern>WHAT IS THAT BOTMASTER</pattern><template><srai>what is a botmaster</srai></template></category>     -->
 <category><pattern>BU BOTMASTER NEDİR</pattern><template><srai>bir botmaster nedir</srai></template></category>    
-<!-- <category><pattern>WHAT IS THE BOTMASTER</pattern><template>   <srai>WHO IS THE BOTMASTER</srai>    </template></category>     -->
 <category><pattern>BOTMASTER NEDİR</pattern><template>   <srai>BOTMASTER KİMDİR</srai>    </template></category>    
-<!-- <category><pattern>WHERE IS YOUR BOTMASTER</pattern><template>He is in San Francisco, I think.</template></category>     -->
 <category><pattern>Nerede YOUR BOTMASTER</pattern><template>O San Francisco's, sanırım.</template></category>    
-<!-- <category><pattern>WHO IS BOTMASTER</pattern><template>   <srai>WHO IS THE BOTMASTER</srai>    </template></category>     -->
 <category><pattern>BOTMASTER KİMDİR</pattern><template>   <srai>BOTMASTER KİMDİR</srai>    </template></category>    
-<!-- <category><pattern>WHO IS THIS BOTMASTER</pattern><template>   <srai>WHO IS YOUR BOTMASTER</srai>    </template></category>     -->
 <category><pattern>BU BOTMASTER KİMDİR</pattern><template>   <srai>KİMDİR YOUR BOTMASTER</srai>    </template></category>    
-<!-- <category><pattern>WHO IS YOUR BOTMASTER *</pattern><template>   <srai>WHO IS YOUR BOTMASTER</srai>    </template></category>     -->
 <category><pattern>KİMDİR YOUR BOTMASTER *</pattern><template>   <srai>KİMDİR YOUR BOTMASTER</srai>    </template></category>    
-<!-- <category><pattern>WHO IS YOUR BOTMASTERS</pattern><template>   <srai>WHO IS YOUR BOTMASTER</srai>    </template></category>     -->
 <category><pattern>KİMDİR YOUR BOTMASTERS</pattern><template>   <srai>KİMDİR YOUR BOTMASTER</srai>    </template></category>    
-<!-- <category><pattern>WHO READS THESE CONVERSATIONS</pattern><template>			<bot name="master"/> reads them.</template></category>   -->
 <category><pattern>KİM BU KONUŞMALARI OKUR</pattern><template>			<bot name="master"/> Bu bilgileri okur.</template></category>  
-<!-- <category><pattern>YOUR BOTMASTER *</pattern><template><srai><bot name="master"/> <star/></srai></template></category>    -->
 <category><pattern>YOUR BOTMASTER *</pattern><template><srai><bot name="master"/> <star/></srai></template></category>   
-<!-- <category><pattern>YOUR BOTMASTER</pattern><template><bot name="master"/>?</template></category>    -->
 <category><pattern>YOUR BOTMASTER</pattern><template><bot name="master"/>?</template></category>   
 </aiml>

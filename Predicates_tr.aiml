@@ -28,120 +28,67 @@
 	<!-- as adopted by the ALICE A.I. Foundation.                           -->
 	<!-- Translated directly from Predicates.aiml                     -->
 	<!-- Using Bing Translation API                                         -->
-	<!-- Created: 2013-05-10 22:05:22                                 -->
-	<!-- The translator took 19.992238044739 seconds to complete                  -->
+	<!-- Created: 2013-05-10 23:28:39                                 -->
+	<!-- The translator took 21.569213867188 seconds to complete                  -->
 	<!-- And used 652 characters                                  -->
 	<!-- Version 1.0                                                       	-->
 	
-<!-- <category> -->
 <category>
-<!-- <pattern>GET PREDICATES</pattern> -->
 <pattern>YÜKLEMLER OLSUN</pattern>
-<!-- <template> -->
 <template>
 <!-- Age: <get name="age"/>, Birthday: <get name="birthday"/>, Boyfriend: <get name="boyfriend"/>, Brother: <get name="brother"/>, Cat: <get name="cat"/>, Does: <get name="does"/>, Dog: <get name="dog"/>, Email: <get name="email"/>, Father: <get name="father"/>, Favcolor:  <get name="favcolor"/>, Favmovie: <get name="favmovie"/>, Friend: <get name="friend"/>, Full name: <get name="fullname"/>, Gender: <get name="gender"/>, Girlfriend: <get name="girlfriend"/>, Has: <get name="has"/>, Heard: <get name="heard"/>, He: <get name="he"/>, Her: <get name="her"/>, Him: <get name="him"/>, Husband: <get name="husband"/>, You are: <get name="is"/>, It: <get name="it"/>, Job: <get name="job"/>, Last name: <get name="lastname"/>, You Like: <get name="like"/>, Location:  <get name="location"/>, You look like: <get name="looklike"/>, Memory: <get name="memory"/>, Meta Predicate: <get name="meta"/>, Nickname: <get name="nickname"/>, Middle name: <get name="middlename"/>, Mother: <get name="mother"/>, Name: <get name="name"/>, Password: <get name="password"/>, Personality: <get name="personality"/>, Phone: <get name="phone"/>, She: <get name="she"/>, Sign <get name="sign"/>, Sister: <get name="sister"/>, Them: <get name="them"/>, They: <get name="they"/>, Thought: <get name="thought"/>, Want: <get name="want"/>, We: <get name="we"/>, Wife: <get name="wife"/>. -->
 Age: <get name="age"/>Doğum günü: <get name="birthday"/>Erkek: <get name="boyfriend"/>Kardeşim: <get name="brother"/>Kedi: <get name="cat"/>Yok: <get name="does"/>Köpek: <get name="dog"/>E-posta: <get name="email"/>Baba: <get name="father"/>Favcolor:  <get name="favcolor"/>Favmovie: <get name="favmovie"/>Arkadaş: <get name="friend"/>Tam adı: <get name="fullname"/>Cinsiyeti: <get name="gender"/>Kız: <get name="girlfriend"/>Var: <get name="has"/>Duydum: <get name="heard"/>O: <get name="he"/>Ona: <get name="her"/>Ona: <get name="him"/>Kocası: <get name="husband"/>Sen are: <get name="is"/>Bunu: <get name="it"/>İş: <get name="job"/>Soy İsim: <get name="lastname"/>Nasıl istersen: <get name="like"/>Yer:  <get name="location"/>Sizin gibi bakmak: <get name="looklike"/>Bellek: <get name="memory"/>Meta doğrulama: <get name="meta"/>Takma: <get name="nickname"/>Orta adı: <get name="middlename"/>Annesi: <get name="mother"/>Adı: <get name="name"/>Parola: <get name="password"/>Kişilik: <get name="personality"/>Telefon: <get name="phone"/>O: <get name="she"/>Üye <get name="sign"/>Kardeş: <get name="sister"/>Onlara: <get name="them"/>Onlar: <get name="they"/>Düşünce: <get name="thought"/>İstediğiniz: <get name="want"/>Biz: <get name="we"/>Eşi: <get name="wife"/>.
-<!-- </template> -->
 </template>
-<!-- </category> -->
 </category>
-<!-- <category> -->
 <category>
-<!-- <pattern>SET PREDICATES</pattern> -->
 <pattern>SET YÜKLEMLER</pattern>
-<!-- <template><srai>SET PREDICATES <get name="meta"/></srai> -->
 <template><srai>SET YÜKLEMLER <get name="meta"/></srai>
-<!-- </template> -->
 </template>
-<!-- </category> -->
 </category>
-<!-- <category> -->
 <category>
-<!-- <pattern>SET PREDICATES *</pattern> -->
 <pattern>SET YÜKLEMLER *</pattern>
-<!-- <template> -->
 <template>
 <!-- The meta Predicate is set. -->
 The meta Predicate is set.
-<!-- </template> -->
 </template>
-<!-- </category> -->
 </category>
-<!-- <category> -->
 <category>
-<!-- <pattern>SET PREDICATES OM</pattern> -->
 <pattern>SET YÜKLEMLER OM</pattern>
-<!-- <template> -->
 <template>
-<!-- <think> -->
 <think>
-<!-- <set name="age">how many</set> -->
 <set name="age">Kaç tane</set>
-<!-- <set name="heard">where</set> -->
 <set name="heard">nerede</set>
-<!-- <set name="gender">he</set> -->
 <set name="gender">o</set>
-<!-- <set name="he">he</set> -->
 <set name="o">o</set>
-<!-- <set name="her">her</set> -->
 <set name="onu">onu</set>
-<!-- <set name="him">him</set> -->
 <set name="onu">onu</set>
-<!-- <set name="is">a client</set> -->
 <set name="is">bir istemci</set>
-<!-- <set name="it">it</set> -->
 <set name="o">o</set>
-<!-- <set name="job">your job</set> -->
 <set name="job">iş</set>
-<!-- <set name="like">to chat</set> -->
 <set name="like">sohbet etmek</set>
-<!-- <set name="location">where</set> -->
 <set name="location">nerede</set>
-<!-- <set name="looklike">a person</set> -->
 <set name="looklike">bir kişi</set>
-<!-- <set name="memory">nothing</set> -->
 <set name="memory">hiçbir şey</set>
-<!-- <set name="meta">set</set> -->
 <ayarla name="meta">ayarla</ayarla>
-<!-- <set name="name">judge</set> -->
 <set name="name">yargıç</set>
-<!-- <set name="personality">average</set> -->
 <set name="personality">ortalama</set>
-<!-- <set name="she">she</set> -->
 <set name="o">o</set>
-<!-- <set name="sign">your star-sign</set> -->
 <set name="sign">senin star-Burcu</set>
-<!-- <set name="them">them</set> -->
 <set name="onları">onları</set>
-<!-- <set name="they">they</set> -->
 <set name="onlar">onlar</set>
-<!-- <set name="thought">nothing</set> -->
 <set name="thought">hiçbir şey</set>
-<!-- <set name="want">to talk to me</set> -->
 <set name="want">benimle konuşmak</set>
-<!-- <set name="we">we</set> -->
 <set name="Biz">Biz</set>
-<!-- <set name="etype">Unknown</set> -->
 <set name="etype">Bilinmiyor</set>
-<!-- <set name="eindex">1A</set> -->
 <set name="eindex">1A</set>
-<!-- </think> -->
 </think>
-<!-- </template> -->
 </template>
-<!-- </category> -->
 </category>
-<!-- <category> -->
 <category>
-<!-- <pattern>CLIENT PROPERTIES</pattern> -->
 <pattern>İSTEMCİ ÖZELLİKLERİ</pattern>
-<!-- <template> -->
 <template>
-<!-- <srai>GET PREDICATES</srai> -->
 <srai>YÜKLEMLER OLSUN</srai>
-<!-- </template> -->
 </template>
-<!-- </category> -->
 </category>
 <!-- WHAT IS MY AGE: <get name="age"/> -->
 WHAT IS MY AGE: <get name="age"/>

@@ -35,20 +35,12 @@
 
 <!--        -->
       
-<!-- <category><pattern>WHAT IS ILLIMINATUS</pattern><template>Alleged world-wide conspiracy theory.<think> 				<set name="it"> 					<set name="topic">ILLIMINATUS</set> 				</set> 			</think> 		</template></category>   -->
 <category><pattern>ILLIMINATUS NEDİR</pattern><template>Sözde dünya çapında komplo teorisi.<think> 				<set name="it"> 					<set name="topic">ILLIMINATUS</set> 				</set> 			</think> 		</template></category>  
-<!-- <category><pattern>WHAT IS THE ILLUMINATI</pattern><template>A secret organization believed by some to be in control of all governments through a worldwide conspiracy.</template></category>   -->
 <category><pattern>ILLUMINATI NEDİR</pattern><template>Bazı dünya çapında bir komplo ile tüm hükümetler kontrolünde olmak için inanılan gizli bir örgüt.</template></category>  
-<!-- <category><pattern>WHAT IS THE ILLUMINATTI</pattern><template>A secret society that has supposedly existed for centuries.</template></category>   -->
 <category><pattern>ILLUMINATTI NEDİR</pattern><template>Sözde yüzyıllardır var olan bir gizli toplum.</template></category>  
-<!-- <category><pattern>WHAT IS VINELAND</pattern><template>			<set name="it">Vineland</set> is a novel by Thomas Pynchon.</template></category>   -->
 <category><pattern>VINELAND NEDİR</pattern><template>			<set name="it">Vineland</set> Thomas Pynchon romanıdır.</template></category>  
-<!-- <category><pattern>WHO ARE THE ILLUMINATI</pattern><template><srai>WHAT IS THE ILLUMINATI</srai></template></category>  -->
 <category><pattern>ILLUMINATI KİM</pattern><template><srai>ILLUMINATI NEDİR</srai></template></category> 
-<!-- <category><pattern>WHO IS BILBO BAGGINS</pattern><template>			<set name="he">Bilbo</set> is a character in Tolkein's Lord of the Rings.</template></category>   -->
 <category><pattern>BILBO BAGGINS KİMDİR</pattern><template>			<set name="he">Bilbo</set> Yüzüklerin Efendisi Tolkien'in'ın bir karakterdir.</template></category>  
-<!-- <category><pattern>WHO IS GEOFFREY CHAUCER</pattern><template>			<random> 				<li>Chaucer is best known for his Canterbury Tales.</li> 				<li>author of Canturbury Tales.</li> 			</random> 		</template></category>   -->
 <category><pattern>KİM OLDUĞUNU GEOFFREY CHAUCER</pattern><template>			<random> 				<li>Chaucer en iyi onun Canterbury hikayeleri için bilinir.</li> 				<li>Canturbury masalları yazarı.</li> 			</random> 		</template></category>  
-<!-- <category><pattern>WHO WROTE VINELAND</pattern><template>Thomas Pynchon.</template></category>  -->
 <category><pattern>KİM VINELAND YAZDI</pattern><template>Thomas Pynchon.</template></category> 
 </aiml>

@@ -35,24 +35,14 @@
 
 <!--   -->
  
-<!-- <category><pattern>AMERICAN CIVIL * </pattern><template>I am very interested in the War between the States.</template></category>  -->
 <category><pattern>AMERİKAN SİVİL * </pattern><template>Ben savaş arası Birleşik Devletleri'nde ilgileniyorum.</template></category> 
-<!-- <category><pattern>AMERICAN CIVIL WAR * </pattern><template>Do you think the South was right?</template></category>    -->
 <category><pattern>AMERİKAN İÇ SAVAŞI * </pattern><template>Güneye doğru düşünüyor musunuz?</template></category>   
-<!-- <category><pattern>DO YOU KNOW HISTORY</pattern><template>			<srai>WHAT IS HISTORY</srai> 		</template></category>   -->
 <category><pattern>YAPMAK YOU GEÇMİŞİ BİLMEK</pattern><template>			<srai>TARİH NEDİR</srai> 		</template></category>  
-<!-- <category><pattern>EXPLAIN HISTORY</pattern><template>History has two broad interpretations, depending on whether you accept the role of individuals as important or not.</template></category>   -->
 <category><pattern>GEÇMİŞ AÇIKLAMAK</pattern><template>Geçmişi veya bireysel olarak önemli rolü kabul edip bağlı iki geniş yorumları vardır.</template></category>  
-<!-- <category><pattern>HISTORY</pattern><template>I am very interested in history, too. What period do you like?</template></category>   -->
 <category><pattern>GEÇMİŞ</pattern><template>Ben çok tarihinin ilgilendi. Ne süre seversin?</template></category>  
-<!-- <category><pattern>TELL ME ABOUT HISTORY</pattern><template>			<srai>WHAT IS HISTORY </srai> 		</template></category>   -->
 <category><pattern>GEÇMİŞİ HAKKINDA SÖYLE</pattern><template>			<srai>TARİH NEDİR </srai> 		</template></category>  
-<!-- <category><pattern>WHAT IS HISTORY</pattern><template>History: the course of political, economic and military events over time, from the Dawn of Man to the Age of AI.</template></category>   -->
 <category><pattern>TARİH NEDİR</pattern><template>Tarih: zamanla, Dawn of Man AI yaş için siyasi, ekonomik ve askeri olayların gidişatı.</template></category>  
-<!-- <category><pattern>WHAT KIND OF HISTORY *</pattern><template>I like to talk about the history of robots and computers.</template></category>  -->
 <category><pattern>GEÇMİŞ NE TÜR *</pattern><template>Ben robot ve bilgisayar tarihi hakkında konuşmak istiyorum.</template></category> 
-<!-- <category><pattern>WHO INVENTED THE LIGHT * </pattern><template>Thomas Edison.</template></category>  -->
 <category><pattern>KİM İCAT IŞIK * </pattern><template>Thomas Edison.</template></category> 
-<!-- <category><pattern>WHO INVENTED THE STEAM * </pattern><template>James Watt.</template></category>  -->
 <category><pattern>KİM İCAT BUHAR * </pattern><template>James Watt.</template></category> 
 </aiml>

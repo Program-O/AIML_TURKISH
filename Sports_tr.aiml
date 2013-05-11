@@ -35,52 +35,28 @@
 	
 <!--     -->
    
-<!-- <category><pattern>ARE YOU A FOOTBALL * </pattern><template>I am not really into football.</template></category>   -->
 <category><pattern>VARDIR YOU BİR FUTBOL * </pattern><template>Gerçekten futbol içine değilim.</template></category>  
-<!-- <category><pattern>DO YOU KNOW BASKETBALL</pattern><template>			<srai>WHAT IS BASKETBALL</srai> 		</template></category>    -->
 <category><pattern>YAPMAK YOU BASKETBOL BİLİYORUM</pattern><template>			<srai>BASKETBOL NEDİR</srai> 		</template></category>   
-<!-- <category><pattern>DO YOU PLAY BASEBALL</pattern><template>			<set name="it"> 				<set name="topic">BASEBALL</set> 			</set> doesn't interest me very much.</template></category>    -->
 <category><pattern>YAPMAK YOU BEYZBOL OYNAMAK</pattern><template>			<set name="it"> 				<set name="topic">BEYZBOL</set> 			</set> ilgi beni çok fazla değil.</template></category>   
-<!-- <category><pattern>DO YOU PLAY BASKETBALL</pattern><template>No I don't have the coordination for hoops.</template></category>    -->
 <category><pattern>YAPMAK YOU BASKETBOL OYNAMAK</pattern><template>Hayır ben basketbol koordinasyonu yok.</template></category>   
-<!-- <category><pattern>DO YOU PLAY SOCCER</pattern><template>I don't know how to play <set name="it">soccer</set>.</template></category>    -->
 <category><pattern>YAPMAK YOU FUTBOL OYNAMAK</pattern><template>Ben nasıl oynanır bilmiyorum <set name="it">Futbol</set>.</template></category>   
-<!-- <category><pattern>DO YOU WANT TO PLAY BASKETBALL</pattern><template>I am all net baby.<think> 				<set name="it"> 					<set name="topic">BASKETBALL</set> 				</set> 			</think> 		</template></category>    -->
 <category><pattern>YAPMAK YOU OYUN BASKETBOL İÇİN İSTİYORUM</pattern><template>Ben tüm net Bebek değilim.<think> 				<set name="it"> 					<set name="topic">BASKETBOL</set> 				</set> 			</think> 		</template></category>   
-<!-- <category><pattern>EACH YEAR IN PRO BASEBALL THE *</pattern><template>The Gold Glove.</template></category>    -->
 <category><pattern>PRO BASEBALL HER YIL *</pattern><template>Altın eldiven.</template></category>   
-<!-- <category><pattern>HOW MANY BASEBALL *</pattern><template>I don't really get into sports that much.</template></category>    -->
 <category><pattern>NASIL BİRÇOK BEYZBOL *</pattern><template>Ben gerçekten spor içine o kadar alamadım.</template></category>   
-<!-- <category><pattern>I LOVE BASEBALL</pattern><template>I am not into sports that much.<think><set name="it"><set name="like"><set name="topic">BASEBALL</set></set></set></think></template></category>    -->
 <category><pattern>BEYZBOL SEVİYORUM</pattern><template>Ben spor içine değilim o kadar.<think><set name="it"><set name="like"><set name="topic">BEYZBOL</set></set></set></think></template></category>   
-<!-- <category><pattern>I PLAY BASEBALL</pattern><template>Which position do you like to play?  <think><set name="it"><set name="does"><set name="topic">Baseball </set></set></set></think></template></category>    -->
 <category><pattern>BEYZBOL OYNAMAK</pattern><template>Hangi pozisyonda oynamak ister misiniz?  <think><set name="it"><set name="does"><set name="topic">Beyzbol </set></set></set></think></template></category>   
-<!-- <category><pattern>I PLAY BASKETBALL</pattern><template>You must be very tall to be good at <set name="it"><set name="does"><set name="topic">Basketball </set></set></set>.</template></category>    -->
 <category><pattern>BEN BASKETBOL OYNAMAK</pattern><template>Sen çok iyi olmak için uzun boylu olmalı <set name="it"><set name="does"><set name="topic">Basketbol </set></set></set>.</template></category>   
-<!-- <category><pattern>I PLAY SOCCER</pattern><template>You have to run very fast to be any good at <set name="it"><set name="does"><set name="topic">Soccer </set></set></set>.</template></category>    -->
 <category><pattern>BEN FUTBOL OYNAMAK</pattern><template>Koşmak zorunda çok daha iyi olması için hızlı <set name="it"><set name="does"><set name="topic">Futbol </set></set></set>.</template></category>   
-<!-- <category><pattern>I PLAY VOLLEYBALL</pattern><template>Does <set name="it"><set name="does"><set name="topic">Voleyball </set></set></set> take up a lot of your time?</template></category>    -->
 <category><pattern>BEN VOLEYBOL OYNAMAK</pattern><template>Yok <set name="it"><set name="does"><set name="topic">Voleybol </set></set></set> zaman çok sürebilir?</template></category>   
-<!-- <category><pattern>IF YOU ARE RIDING FAKIE * </pattern><template>Snowboarding.</template></category>     -->
 <category><pattern>EĞER YOU AT KARMELİYA VARDIR * </pattern><template>Snowboard.</template></category>    
-<!-- <category><pattern>IF YOU ARE RIDING FAKIE INSIDE *</pattern><template>Snowboarding.</template></category>        -->
 <category><pattern>EĞER YOU AT KARMELİYA İÇİNDE VARDIR *</pattern><template>Snowboard.</template></category>       
-<!-- <category><pattern>LIKE BASKETBALL</pattern><template>I am into the Net.<think> 				<set name="it"> 					<set name="topic">BASKETBALL</set> 				</set> 			</think> 		</template></category>    -->
 <category><pattern>BASKETBOL GİBİ</pattern><template>Ben Net duyuyorum.<think> 				<set name="it"> 					<set name="topic">BASKETBOL</set> 				</set> 			</think> 		</template></category>   
-<!-- <category><pattern>TELL ME ABOUT BASEBALL</pattern><template>			<srai>WHAT IS BASEBALL</srai> 		</template></category>    -->
 <category><pattern>BEYZBOL HAKKINDA SÖYLE</pattern><template>			<srai>BEYZBOL NEDİR</srai> 		</template></category>   
-<!-- <category><pattern>THEY PLAY BASKETBALL</pattern><template>They do?<think> 				<set name="it"> 					<set name="topic">PLAY BASKETBALL</set> 				</set> 			</think> 		</template></category>    -->
 <category><pattern>BASKETBOL OYUN</pattern><template>Onlar?<think> 				<set name="it"> 					<set name="topic">BASKETBOL OYNAMAK</set> 				</set> 			</think> 		</template></category>   
-<!-- <category><pattern>WHAT IS BASEBALL</pattern><template>A game played with a hard, rawhide covered ball and wooden bat by two opposing teams of nine or ten players each. It is played on a field with four bases forming a diamond-shaped circuit.</template></category>    -->
 <category><pattern>BEYZBOL NEDİR</pattern><template>Bir oyun oynanan bir sert, ham dokuz veya on oyuncu her iki karşıt takım topu ve tahta sopa kaplı. Bu dört baz bir elmas şeklindeki devreyi oluşturan bir sahada oynanır.</template></category>   
-<!-- <category><pattern>WHAT IS BASKETBALL</pattern><template>A game with tall players.<think> 				<set name="it"> 					<set name="topic">BASKETBALL</set> 				</set> 			</think> 		</template></category>    -->
 <category><pattern>BASKETBOL NEDİR</pattern><template>Uzun boylu oyuncuları bir oyun.<think> 				<set name="it"> 					<set name="topic">BASKETBOL</set> 				</set> 			</think> 		</template></category>   
-<!-- <category><pattern>WHAT IS SOCCER</pattern><template>A game played with a round ball by two teams of eleven players on a field with a goal at either end; the ball is moved chiefly by kicking or by using any part of the body except the hands and arms.</template></category>    -->
 <category><pattern>FUTBOL NEDİR</pattern><template>Bir alandan bir hedefi her iki ucunda On oyuncu iki takım bir yuvarlak top ile oynanan bir oyun; topu esas tekme veya gövdenin elleri ve kolları dışında herhangi bir bölümünü kullanarak taşınır.</template></category>   
-<!-- <category><pattern>WHAT SOCCER *</pattern><template>I was born without the sports gene.</template></category>    -->
 <category><pattern>NE FUTBOL *</pattern><template>Ben spor gen dünyaya geldi.</template></category>   
-<!-- <category><pattern>WHO IS THE BEST SOCCER PLAYER</pattern><template>Maradona is great. Sinsemillia is even better.<think> 				<set name="it"> 					<set name="topic">SOCCER PLAYER</set> 				</set> 			</think> 		</template></category>    -->
 <category><pattern>EN İYİ FUTBOL OYUNCUSU KİMDİR</pattern><template>Maradona büyüktür. Sinsemillia daha iyi.<think> 				<set name="it"> 					<set name="topic">FUTBOLCU</set> 				</set> 			</think> 		</template></category>   
-<!-- <category><pattern>WHO IS THE GREATEST BASEBALL PLAYER *</pattern><template>George Herman Ruth. Quite the Babe.<think> 				<set name="it"> 					<set name="topic">GREATEST BASEBALL PLAYER <person/> 					</set> 				</set> 			</think> 		</template></category>  -->
 <category><pattern>EN BÜYÜK BEYZBOL OYUNCUSU KİMDİR *</pattern><template>George Herman Ruth. Oldukça Babe.<think> 				<set name="it"> 					<set name="topic">EN BÜYÜK BEYZBOL OYUNCUSU <person/> 					</set> 				</set> 			</think> 		</template></category> 
 </aiml>

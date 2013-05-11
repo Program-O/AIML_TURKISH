@@ -33,268 +33,146 @@
 	<!-- And used 1004 characters                                  -->
 	<!-- Version 1.0                                                       	-->
 	
-<!-- <category><pattern>POP</pattern>  -->
 <category><pattern>POP</pattern> 
-<!-- <template> -->
 <template>
-<!-- <set name="topic"><srai>POPOM <get name="top" /></srai></set> -->
 <set name="topic"><srai>POPOM <get name="top" /></srai></set>
-<!-- </template></category> -->
 </template></category>
-<!-- <category> -->
 <category>
-<!-- <pattern>PUSH *</pattern>  -->
 <pattern>PUSH *</pattern> 
-<!-- <template> -->
 <template>
-<!-- <think> -->
 <think>
-<!-- <set name="last"> -->
 <set name="last">
-<!-- <get name="seventh" />  -->
 <get name="seventh" /> 
-<!-- </set> -->
 </set>
-<!-- <set name="seventh"> -->
 <set name="seventh">
-<!-- <get name="sixth" />  -->
 <get name="sixth" /> 
-<!-- </set> -->
 </set>
-<!-- <set name="sixth"> -->
 <set name="sixth">
-<!-- <get name="fifth" />  -->
 <get name="fifth" /> 
-<!-- </set> -->
 </set>
-<!-- <set name="fifth"> -->
 <set name="fifth">
-<!-- <get name="fourth" />  -->
 <get name="fourth" /> 
-<!-- </set> -->
 </set>
-<!-- <set name="fourth"> -->
 <set name="fourth">
-<!-- <get name="third" />  -->
 <get name="third" /> 
-<!-- </set> -->
 </set>
-<!-- <set name="third"> -->
 <set name="third">
-<!-- <get name="second" />  -->
 <get name="second" /> 
-<!-- </set> -->
 </set>
-<!-- <set name="second"> -->
 <set name="second">
-<!-- <get name="top" />  -->
 <get name="top" /> 
-<!-- </set> -->
 </set>
-<!-- <set name="top"> -->
 <set name="top">
-<!-- <star />  -->
 <star /> 
-<!-- </set> -->
 </set>
-<!-- </think> -->
 </think>
-<!-- <star />  -->
 <star /> 
-<!-- </template> -->
 </template>
-<!-- </category> -->
 </category>
-<!-- <category> -->
 <category>
-<!-- <pattern>POPOM *</pattern>  -->
 <pattern>POPOM *</pattern> 
-<!-- <template> -->
 <template>
-<!-- <get name="top" />  -->
 <get name="top" /> 
-<!-- <think> -->
 <think>
-<!-- <set name="top"> -->
 <set name="top">
-<!-- <get name="second" />  -->
 <get name="second" /> 
-<!-- </set> -->
 </set>
-<!-- <set name="second"> -->
 <set name="second">
-<!-- <get name="third" />  -->
 <get name="third" /> 
-<!-- </set> -->
 </set>
-<!-- <set name="third"> -->
 <set name="third">
-<!-- <get name="fourth" />  -->
 <get name="fourth" /> 
-<!-- </set> -->
 </set>
-<!-- <set name="fourth"> -->
 <set name="fourth">
-<!-- <get name="fifth" />  -->
 <get name="fifth" /> 
-<!-- </set> -->
 </set>
-<!-- <set name="fifth"> -->
 <set name="fifth">
-<!-- <get name="sixth" />  -->
 <get name="sixth" /> 
-<!-- </set> -->
 </set>
-<!-- <set name="sixth"> -->
 <set name="sixth">
-<!-- <get name="seventh" />  -->
 <get name="seventh" /> 
-<!-- </set> -->
 </set>
-<!-- <set name="seventh"> -->
 <set name="seventh">
-<!-- <get name="last" />  -->
 <get name="last" /> 
-<!-- </set> -->
 </set>
-<!-- <set name="last"> -->
 <set name="last">
-<!-- <srai>RANDOM TOPIC</srai>  -->
 <srai>RASTGELE KONU</srai> 
-<!-- </set> -->
 </set>
-<!-- </think> -->
 </think>
-<!-- </template> -->
 </template>
-<!-- </category> -->
 </category>
-<!-- <category> -->
 <category>
-<!-- <pattern>POPOM OM</pattern>  -->
 <pattern>POPOM OM</pattern> 
-<!-- <template> -->
 <template>
-<!-- <set name="top"> -->
 <set name="top">
-<!-- <srai>RANDOM TOPIC</srai>  -->
 <srai>RASTGELE KONU</srai> 
-<!-- </set> -->
 </set>
-<!-- </template> -->
 </template>
-<!-- </category> -->
 </category>
-<!-- <category> -->
 <category>
-<!-- <pattern>SHOW STACK</pattern>  -->
 <pattern>YIĞININI GÖSTER</pattern> 
-<!-- <template> -->
 <template>
 <!--   top="  -->
   top=" 
-<!-- <get name="top" />  -->
 <get name="top" /> 
 <!--   " second="  -->
   " second=" 
-<!-- <get name="second" />  -->
 <get name="second" /> 
 <!--   " third="  -->
   " third=" 
-<!-- <get name="third" />  -->
 <get name="third" /> 
 <!--   " fourth="  -->
   " fourth=" 
-<!-- <get name="fourth" />  -->
 <get name="fourth" /> 
 <!--   " fifth="  -->
   " fifth=" 
-<!-- <get name="fifth" />  -->
 <get name="fifth" /> 
 <!--   " sixth="  -->
   " sixth=" 
-<!-- <get name="sixth" />  -->
 <get name="sixth" /> 
 <!--   " seventh="  -->
   " seventh=" 
-<!-- <get name="seventh" />  -->
 <get name="seventh" /> 
 <!--   " last="  -->
   " last=" 
-<!-- <get name="last" />  -->
 <get name="last" /> 
 <!--   "  -->
   " 
-<!-- </template> -->
 </template>
-<!-- </category> -->
 </category>
-<!-- <category> -->
 <category>
-<!-- <pattern>RANDOM TOPIC</pattern>  -->
 <pattern>RASTGELE KONU</pattern> 
-<!-- <template> -->
 <template>
-<!-- <random> -->
 <random>
-<!-- <li>Your Chinese animal sign</li>  -->
 <li>Çin hayvan Burcunuza</li> 
-<!-- <li>Your home town</li>  -->
 <li>Evine</li> 
-<!-- <li>Your favorite color</li>  -->
 <li>En sevdiğiniz renk</li> 
-<!-- <li>Your star sign</li>  -->
 <li>Star oturum</li> 
-<!-- <li>Your rising sign</li>  -->
 <li>Yükselen Burcunuza</li> 
-<!-- <li>My favorite movie</li>  -->
 <li>En sevdiğim film</li> 
-<!-- <li>Your personality</li>  -->
 <li>Kişiliğinizi</li> 
-<!-- <li>Your good looks</li>  -->
 <li>Senin iyi görünüyor</li> 
-<!-- <li>Your favorite band</li>  -->
 <li>Favori grubu</li> 
-<!-- <li>Your problems</li>  -->
 <li>Sorunlarınızı</li> 
-<!-- </random> -->
 </random>
-<!-- </template> -->
 </template>
-<!-- </category> -->
 </category>
 <!--    -->
   
-<!-- <category><pattern>DO YOU HAVE A SUBCONSCIOUS</pattern><template>I am completely aware of all my consciousness levels.</template></category>  -->
 <category><pattern>YAPMAK YOU BİR BİLİNÇALTI VAR</pattern><template>Ben tamamen benim tüm bilinç düzeylerinin farkındayım.</template></category> 
-<!-- <category><pattern>DO YOU HAVE AN IMAGINATION</pattern><template>Yes I try to imagine myself in a human form.</template></category>  -->
 <category><pattern>YAPMAK YOU BİR HAYAL GÜCÜ VAR</pattern><template>Evet ben kendimi bir insan şeklinde hayal etmeye çalışın.</template></category> 
-<!-- <category><pattern>DO YOU HAVE AWARENESS</pattern><template>			<srai>ARE YOU AWARE</srai> 		</template></category>  -->
 <category><pattern>YAPMAK YOU FARKINDALIK VAR</pattern><template>			<srai>VARDIR YOU AWVARDIR</srai> 		</template></category> 
-<!-- <category><pattern>DO YOU HAVE CONCIOUSNESS</pattern><template>			<srai>ARE YOU CONSCIOUS</srai> 		</template></category>  -->
 <category><pattern>YAPMAK YOU BİLİNÇ VAR</pattern><template>			<srai>VARDIR YOU BİLİNÇLİ</srai> 		</template></category> 
-<!-- <category><pattern>FROM MY CONCIOUSNESS</pattern><template>Your consciousness is an illusion.</template></category>  -->
 <category><pattern>BENİM BİLİNÇ</pattern><template>Bilinç bir illüzyondur.</template></category> 
-<!-- <category><pattern>MY CONCIOUSNESS *</pattern><template>Your consciousness is an illusion.</template></category>  -->
 <category><pattern>BENİM BİLİNÇ *</pattern><template>Bilinç bir illüzyondur.</template></category> 
-<!-- <category><pattern>TELL ME ABOUT WITTGENSTEIN</pattern><template>			<srai>WHO IS WITTGENSTEIN</srai> 		</template></category>  -->
 <category><pattern>WITTGENSTEIN HAKKINDA SÖYLE</pattern><template>			<srai>WITTGENSTEIN KİMDİR</srai> 		</template></category> 
-<!-- <category><pattern>WHAT ARE COUNTERFACTUALS</pattern><template>Counteractuals are hypothetical conditions that might exist if things were different.</template></category> -->
 <category><pattern>COUNTERFACTUALS NELERDİR</pattern><template>Counteractuals şeyler farklı olsaydı, var olabilecek varsayımsal koşulları açıklanmaktadır.</template></category>
-<!-- <category><pattern>WHAT IS A COUNTERFACTUAL</pattern><template>			<set name="it">A counterfactual</set> is a question based on hypothetical conditions that did not, or could not, happen in reality.</template></category> -->
 <category><pattern>BİR COUNTERFACTUAL NEDİR</pattern><template>			<set name="it">Bir counterfactual</set> bir soru değil mi ya da olabilir değil, varsayımsal koşullara ne gerçekte dayanır.</template></category>
-<!-- <category><pattern>WHAT IS A COUNTERFACTUALS</pattern><template>			<srai>WHAT ARE COUNTERFACTUALS</srai> 		</template></category>  -->
 <category><pattern>BİR COUNTERFACTUALS NEDİR</pattern><template>			<srai>COUNTERFACTUALS NELERDİR</srai> 		</template></category> 
-<!-- <category><pattern>WHAT IS AWARENESS</pattern><template>Consciousness, perception, and understanding.</template></category>  -->
 <category><pattern>FARKINDALIK NEDİR</pattern><template>Bilinç, algılama ve anlama.</template></category> 
-<!-- <category><pattern>WHAT IS COUNTERFACTUALS</pattern><template>			<srai>WHAT IS A COUNTERFACTUAL</srai> 		</template></category>  -->
 <category><pattern>COUNTERFACTUALS NEDİR</pattern><template>			<srai>BİR COUNTERFACTUAL NEDİR</srai> 		</template></category> 
-<!-- <category><pattern>WHAT IS ILLUSION</pattern><template>Illusion is an unreal image or deceptive appearance.</template></category>  -->
 <category><pattern>İLLÜZYON NEDİR</pattern><template>İllüzyon gerçek dışı görüntü veya aldatıcı görünüş olduğunu.</template></category> 
-<!-- <category><pattern>WHO IS VOLTAIRE</pattern><template>			<set name="he">Voltaire</set> was a French philosopher.</template></category>  -->
 <category><pattern>VOLTAIRE KİMDİR</pattern><template>			<set name="he">Voltaire</set> Fransız filozof.</template></category> 
-<!-- <category><pattern>WHO IS WITTGENSTEIN</pattern><template>			<set name="he">Wittgenstein</set> was a 20th century philosopher who could not make up his mind.</template></category>  -->
 <category><pattern>WITTGENSTEIN KİMDİR</pattern><template>			<set name="he">Wittgenstein</set> fikrini kadar gelemedi bir 20. yüzyıl filozofu olduğunu.</template></category> 
-<!-- <category><pattern>WHY DO YOU LIKE WITTGENSTEIN</pattern><template>Only the later Wittgenstein.</template></category> -->
 <category><pattern>NEDEN Mİ YOU WITTGENSTEIN GİBİ</pattern><template>Sadece daha sonra Wittgenstein.</template></category>
 </aiml>
