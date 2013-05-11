@@ -40,7 +40,7 @@
 <!-- <category><pattern>A TRIANGLE *</pattern><template>ALICE's pyramid logo was designed by Sage Greco and Darren Langley.</template></category>                 -->
 <category><pattern>BİR ÜÇGEN *</pattern><template>Ayla'nın piramit logosu adaçayı Greco ve Darren Langley tarafından tasarlanmıştır.</template></category>                
 <!-- <category><pattern>ACTIVATE THE ROBOT</pattern><template>Robot activated. Awaiting your command <get name="name"/>.</template></category>                  -->
-<category><pattern>ROBOT ETKİNLEŞTİRMEK</pattern><template>Aktif robot. Senin komut bekleyen <get name="name"/>.</template></category>                 
+<category><pattern>ROBOT ETKİNLEŞTİRMEK</pattern><template>Robot su an aktif. Senin komutlarini bekliyor. <get name="name"/>.</template></category>                 
 <!-- <category><pattern>AI *</pattern><template><srai>YOU <star/></srai></template></category>            -->
 <category><pattern>AI *</pattern><template><srai>YOU <star/></srai></template></category>           
 <!-- <category><pattern>ARE YOU A * ELIZA</pattern><template>With the web we can analyze a much larger corpus of inputs, and develop much better responses than ELIZA.</template></category>                  -->
